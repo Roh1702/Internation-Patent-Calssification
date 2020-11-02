@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE record SYSTEM "../../../../ipctraining.dtd">
+<record cy="WO" an="US0106001" pn="WO016353820010830" dnum="0163538" kind="A1">
+<prs>
+<pr prn="US20000222 60/183,857"/>
+</prs>
+<ipcs ed="7" mc="G06F01760"></ipcs>
+<ins>
+<in>SCHOENBERG, Roy</in>
+</ins>
+<pas>
+<pa>CAREKEY.COM, INC.</pa>
+</pas>
+<tis>
+<ti xml:lang="EN">METHOD AND SYSTEM FOR DISTRIBUTING HEALTH INFORMATION
+</ti>
+</tis>
+<abs>
+<ab xml:lang="EN">A method of and system for distributing medical information for an individual over a communications network is disclosed. The method includes the steps of generating a plurality of security access codes (202), generating a plurality of hierarchical categories ranging from a low security category to a high security category (204), categorizing the individual's medical information into privacy levels ranging from a least private level to a most private level (206), inputting the individual's categorized medical information into the plurality of hierarchical categories (208), the least private level being input into the low security category and the most private level being input into the high security category and assigning, to each of the categories, one or more of the access security codes, such that the medical information in each category will be released only if the assigned access security codes are received (214).</ab>
+</abs>
+<cls>
+<cl xml:lang="EN">What is claimed is :1. A method of distributing health information, comprising the steps of :
+A. generating health data representative of at least one set of
+health information for an individual ;
+B. generating access priority data representative of an access
+priority associated with each of said at least one set of health
+information, said access priority being based on criteria for
+release authorization established by said individual ;
+C. storing at a datastore said health data and associated access
+priority data ;
+D. receiving from a requestor, by way of a communications
+network, a request for at least one of said sets of health
+information, said request including access data correlated to
+an access priority ;
+E. processing said access data to determine whether said access
+data corresponds to said access priority criteria for said
+requested health information ; and
+i. when said access data corresponds to said access
+criteria for said requested health information,
+transmitting said requested health information to said
+requestor by way of said communications network,
+and
+ii. when said access data fails to correspond to said
+access criteria, denying access to said requestor to said
+health information. 2. The method according to claim 1, wherein said
+communications network is the Internet. 3. The method according to claim 1, wherein said transmitted
+health information is encrypted. 4. The method of distributing medical according to claim 2
+further comprising the step of designating certain of said access priority data
+as identification constraints which must be received in step D before access
+to said medical information is granted. 5. A method of distributing medical information for an
+individual over a communications network comprising the steps of :
+A. generating a plurality of security access codes ;
+B. generating a plurality of hierarchical categories, ranging from
+a low security category to a high security category ;
+C. categorizing the individual's medical information into privacy
+levels ranging from a least private level to a most private
+level ;D. inputting the individual's categorized medical information into
+said plurality of hierarchical categories, said least private level
+being input into said low security category and said most
+private level being input into said high security category ;
+E. assigning, to each of said categories, one or more of said
+access security codes, such that said medical information in
+each category will be released only if the assigned access
+security codes are received ;
+F. receiving, from a requestor, one or more of said access
+security codes over said communications network ;
+G. determining whether said received access security codes
+match one or more of said assigned access security codes ; and
+H. transmitting, to said requestor over said communications
+network, said medical information in said categories in which
+said received security access codes match said assigned
+security access codes. 6. The method of distributing medical information for an
+individual over a network according to claim 5, wherein said
+communications network is the internet. 7. The method of distributing medical information for an
+individual over a network according to claim 6, wherein said released
+medical information is encrypted. 8. The method of distributing medical information for an
+individual over a network according to claim 6 further comprising the step of
+designating certain of said security access codes as identification constraints
+which must be received in step F before access to said medical information is
+granted. 9. The method of distributing medical information for an
+individual over a network according to claim 6 wherein, prior to step F,
+identification information is received from the requestor, said identification
+information being for identifying the individual. 10. The method of distributing medical information for an
+individual over a network according to claim 9 wherein said identification
+information is selected from the group consisting of the individual's medical
+record numbers, demographic data, information from a smart card that
+identifies the patient, retinal scans, iris scans and fingerprints. 11. The method of distributing medical information for an
+individual over a network according to claim 9 wherein said identification
+information is any information about the individual which is available to said
+requester. 12. A system for distributing medical information for an
+individual over a communications network comprising :
+a server system including a computer processor and associated
+memory, said server system having database of a plurality of hierarchical
+categories for the individual, said categories ranging from a low security
+category to a high security category, each of said categories having medical
+information of said individual contained therein, said medical information
+ranging from least private information to most private information, said least
+private medical information being contained in said low security category
+and said most private medical information being contained in said high
+security category, each of said categories having one or more security access
+codes assigned thereto ;
+a request system including a computer processor and associated
+memory, said requestor system inputting one or more of said security access
+codes to said server system over said communications network ; and
+an access determining device for transmitting, to said requestor
+system, the medical information in each of said categories in which said
+input security access codes match said assigned security access codes. 13. The system according to claim 12 wherein said
+communications network is the internet. 14. The system according to claim 13, further including a setup
+system, including a computer processor and associated memory, for inputting
+said medical information to said database. 15. The system according to claim 14 wherein said security
+access codes are defined by a user and are assigned to said categories by said
+user through said setup system. 16. The system according to claim 13 wherein more of said
+security access codes are required to access said high security categories than
+said low security categories. 17. The system according to claim 13 wherein said setup system
+and said requestor system are the same system. 18. The system of claim 13 wherein said request system is
+coupleable to said network by a wired connection. 19. The system of claim 18 wherein said request system is
+selected from the group consisting of a personal computer, an interactive television
+system, a personal digital assistant and a cellular telephone. 20. The system of claim 13 wherein said request system is
+coupleable to said network by a wireless connection. 21. The system of claim 20 wherein said request system is
+selected from the group consisting of a personal computer, an interactive television
+system, a personal digital assistant and a cellular telephone. 22. The system of claim 14 wherein said setup system is
+coupleable to said network by a wired connection. 23. The system of claim 22 wherein said setup system is selected
+from the group consisting of a personal computer, an interactive television system, a
+personal digital assistant and a cellular telephone. 24. The system of claim 14 wherein said setup system is
+coupleable to said network by a wireless connection. 25. The system of claim 24 wherein said setup system is selected
+from the group consisting of a personal computer, an interactive television system, a
+personal digital assistant and a cellular telephone.</cl>
+</cls>
+<txts>
+<txt xml:lang="EN"> APPLICATION
+FOR
+UNITED STATES LETTERS PATENT
+TO ALL WHOM IT MAY CONCERN :
+Be it known that Roy Schoenberg has invented METHOD AND SYSTEM
+FOR DISTRIBUTING HEALTH INFORMATION of which the following
+description in connection with the accompanying drawings is a specification.RELATED APPLICATIONS
+This application claims the benefit of United States Provisional Patent
+Application No. 60/183, 857, filed February 22, 2000.FIELD OF THE INVENTION
+This invention generally relates to a method of and system for distributing
+medical information over a communications network, and more specifically to a
+method of and system for assigning increasing levels of security to portions of an
+individual's medical records and linking each of the security levels to access security
+codes that must be supplied by the requestor of the medical information in order to
+access the medical records.BACKGROUND OF THE INVENTION
+When a patient is brought into a hospital for emergency care, it is very
+unlikely that the patient's medical record will be present in the hospital. A patient's
+medical record is very important, particularly in an emergency situation, as it
+typically contains information regarding the patient's blood type, allergies, medical
+history, etc. Typically, such records are at the location where the patient receives
+the majority of his or her medical care. In most cases, this is the location of the
+patient's primary care physician, thus making quick access to the record by the
+emergency care provider virtually impossible. Furthermore, even if the patient's
+medical record is accessible, it is likely that much of the information in the record is
+scattered between several archives in various locations ; is obsolete, redundant or
+indecipherable to the extent that it does not benefit the patient at the point of care. Presently, the transfer of patients'medical records between care providers is
+done in a number of different ways. Records can be transferred by phone, facsimile
+and overnight mail, however, these options are relatively slow, expensive and can be
+unreliable. The use of email for transferring medical records can be relatively
+simple and quick. However, email is typically too insecure for transferring the
+sensitive information contained in a patient's medical record, and information can
+only be exchanged between parties that are aware of each other's email addresses.Smart cards, which contain memory devices in which a patient's medical data is
+stored, allow the patient to carry his or her medical records, thereby potentially
+enabling immediate access to the patient's record. However, the cards are easily lost
+or misplaced, thus endangering the securing of the record, and smart cards must be
+compatible with the smart card reader at a particular medical location, which may
+not always be the case. Furthermore, since the smart card must be physically
+present at the time the information is needed, remote consultation is impossible. For
+example, if an ambulance is bringing a patient to the hospital, the information
+contained in the smart card cannot be accessed by care providers at the hospital until f
+the patient arrives. A further disadvantage of the above methods is that they
+generally do not permit only selective access to the patient's information, depending
+on the situation that has precipitated the need for the patient's medical data. For
+example, if the patient suffers a broken bone, while information regarding the
+patient's blood type and allergies might be necessary for the proper treatment of the
+injury, the patient's cardiological or serological data is not. None of the above
+methods can prevent unnecessary medical data from being divulged to the medical
+care provider, thus potentially risking the patient's privacy. While the internet could be used to distribute medical records, there is
+presently no online system that is capable of securely distributing only the
+information from a patient's medical record that is necessary for the situation that
+has required access to the record. Accordingly, it is an object of this invention to provide a method of and
+system for distributing medical information in which the medical care provider has
+quick access to a patient's medical record, but only to the information within the
+medical record that is necessary for the proper treatment of the patient at that time.SUMMARY OF THE INVENTION
+The present invention is directed to a method of and system for distributing
+medical information over a communications network. A patient's medical record is
+divided into a hierarchy of categories, each category having a level of privacy
+associated therewith which is greater than the previous level. The lowest level
+category could include information such as blood type and allergies, while a highlevel category could include the patient's HIV status. The patient constructs a list of
+access codes, wherein, the higher the level of the category, the more access codes
+are required to gain access to the category of the medical record. This enables the
+patient to control how much access to his or her medical records a particular medical
+care provider has, by selecting the access codes that are provided to the care
+provider. According to the invention, a method for distributing health information
+includes the steps of generating health data representative of at least one set of
+health information for an individual, generating access priority data representative of
+an access priority associated with each of the at least one set of health information,
+the access priority being based on criteria for release authorization established by the
+individual, storing at a datastore the health data and associated access priority data
+and receiving from a requestor, by way of a communications network, a request for
+at least one of the sets of health information, the request including access data
+correlated to an access priority. The method further includes the steps of processing
+the access data to determine whether the access data corresponds to the access
+priority criteria for the requested health information. When the access data
+corresponds to the access criteria for the requested health information, the requested
+health information is transmitted to the requestor by way of the communications
+network, and, when the access data fails to correspond to the access criteria, access
+to the requestor to the health information is denied. The communications network
+may be the Internet and the transmitted health information may be encrypted. According to another embodiment of the invention, a method of distributing
+medical information for an individual over a communications network includes the
+steps of generating a plurality of security access codes, generating a plurality of
+hierarchical categories, ranging from a low security category to a high security
+category, categorizing the individual's medical information into privacy levels
+ranging from a least private level to a most private level, inputting the individual's
+categorized medical information into the plurality of hierarchical categories, the
+least private level being input into the low security category and the most private
+level being input into the high security category and assigning, to each of the
+categories, one or more of the access security codes, such that the medical
+information in each category will be released only if the assigned access security
+codes are received. The method further includes the steps of receiving, from a
+requestor, one or more of the access security codes over the communications
+network, determining whether the received access security codes match one or
+more of the assigned access security codes and transmitting, to the requestor
+over the communications network, the medical information in the categories in
+which the received security access codes match the assigned security access codes. A system for distributing medical information for an individual over a
+communications network according to the present invention includes a server system
+including a computer processor and associated memory, the server system having
+database of a plurality or hierarchical categories for the individual, the categories
+ranging from a low security category to a high security category, each of the
+categories having medical information of the information contained therein. The
+medical information ranges from least private information to most private
+information, the least private medical information being contained in the low
+security category and the most private medical information being contained in the
+high security category. Each of the categories have one or more security access
+codes assigned thereto. The system further includes a request system including a
+computer processor and associated memory, the requestor system inputting one or
+more of the security access codes to the server system over the communications
+network and an access determining device for transmitting, to the requestor system,
+the medical information in each of the categories in which the input security access
+codes match the assigned security access codes. The system may further include a
+setup system, having a computer processor and associated memory, for inputting the
+medical information to the database. The security access codes may be defined by a
+user and assigned to the categories by the user through the setup system. More of
+the security access codes may be required to access the high security categories than
+the low security categories. The setup system and the requestor system may be the
+same system. The setup system may be coupleable to said network by a wired or a
+wireless connection, and may be a personal computer, an interactive television
+system, a personal digital assistant or a cellular telephone.BRIEF DESCRIPTION OF THE DRAWINGS
+The foregoing and other objects of this invention, the various features
+thereof, as well as the invention itself may be more fully understood from the
+following description when read together with the accompanying drawings in which :
+FIG. 1 is a diagrammatic view of a system for distributing medical
+information in accordance with the present invention ;
+FIG. 2 is a flow diagram of a method of distributing medical information in
+accordance with the present invention ;
+FIG. 3 is a schematic diagram of an example medical record in accordance
+with the system of FIG. 1 ;
+FIG. 4 is a diagrammatic view of another embodiment of the system of FIG.1 ; and
+FIG. 5 is a diagrammatic view of yet another embodiment of the system of
+FIG. 1.DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+The present invention enables a medical care provider to have remote access
+to a patient's medical record, while also enabling the patient to dictate exactly how
+much information the medical care provider can access. FIG. 1 shows a diagram of
+a system 100 for distributing medical information in accordance with a preferred
+embodiment of the present invention. The system 100 includes setup system 110,
+server system 120 and request system 130 all connected to a common
+communications network 160. Preferably, the setup system 110, server system 120
+and request system 130 can each be a personal computer such as an IBM PC or IBM
+PC compatible system or an APPLE  MacINTOSHO system or a more advanced
+computer system such as an Alpha-based computer system available from Compaq
+Computer Corporation or SPARC  Station computer system available from SUN
+Microsystems Corporation, although a main frame computer system can also be
+used. Preferably, the communications channel 160 is a TCP/IP-based network such
+as the Internet or an intranet, although almost any well known LAN, WAN or VPN
+technology can be used. In one preferred embodiment of the invention, the setup system 110 and
+request system 130 are IBM PC compatible systems operating a MicrosoftWindows  operating system and server system 120 is configured as a web server
+providing access to information such as web pages in HTML format via theHyperText Transport Protocol (http). The setup system 110 and request system 130
+include software to allow viewing of web pages, commonly referred to as a web
+browser, thus being capable of accessing web pages located on server system 120.Furthermore, setup system 110, server system 120 and request system 130 include
+software for encrypting and decrypting data that is transmitted over the
+communications network 160. Alternatively, setup system 110 and request system130 can be any wired or wireless device that can be connected to a communications
+network, such as an interactive television system, such as WEBTV, a personal
+digital assistant (PDA) or a cellular telephone. In this preferred embodiment, setup
+system 110 is located at the patient's primary care physician's office and request
+system 130 is located wherever access to a patient's medical record is required, such
+as in an emergency room, ambulance or another doctor's office. FIG. 2 shows a flow diagram of the method of distributing medical
+information according to the present invention. First, the user of the setup system110, FIG. 1, who can be the patient or the patient's physician, generates security
+access codes, step 202, which will provide varying access to the patient's medical
+records. Such security access codes can include demographic data such as the
+patient's name, birth date, social security number, address and phone number ; nondemographic data such as a passport number and the patient's native language ;
+physical attributes such as eye and hair color and scars or other identifying marks ;
+and user-definable fields such as passwords. The user then generates hierarchical
+categories into which the patient's medical information will be stored, step 204.These categories range from a low security category, for information that the patient
+is less concerned about becoming known by a third party, to a high security
+category, for information that the patient is more concerned about becoming known
+by a third party. The patient and/or the patient's physician then determine the level
+of privacy that is desired for each piece of medical information in the patient's
+medical record, step 206. The least private level could include information such as
+the patient's blood type and allergies. The most private level could include HIV
+data. Intermediate levels of privacy may include serology data, psychiatric data,
+cardiology data and genetic data. After the levels of privacy for each piece of the
+patient's medical information is determined, the information is transmitted from the
+setup system 110, FIG. 1, to the server system 120 over the communications
+network 160, and is stored in a database 122 of the server system 120, step 208. The
+patient then assigns one or more of the security access codes to each of the
+categories in the database 122, step 210. Preferably, security access codes that are
+easier to ascertain are assigned to low security categories, while security access
+codes that are more difficult to ascertain are assigned to high security categories.This allows the patient to more precisely control who has access to the categories, by
+enabling the patient to provide the security access codes for each of the categories
+only to medical personnel who have a"need-to-know"the particular information in
+each category. As a further security measure, the patient can define which of the security
+access codes are necessary to be input by the requestor to identify the requestor as
+being authorized to access the patient's medical record, step 212. The security
+access code that will identify an authorized requestor is preferably a code that will
+not be easily guessed by an unauthorized requestor. When a patient's medical record is needed, the requestor inputs to the server
+system 120, FIG. 1, through request system 130 and over network 160, any
+information that is known about the patient in order to identify the patient. While
+prior art systems require specific predetermined data to identify a patient, the present
+invention is capable of searching its database to identify the patient based on
+whatever information the requester can provide. Such information can include, but
+is not limited to, actual medical record numbers for a particular hospital,
+demographic data such as the patient's name, age and sex, information from a smart
+card that identifies the patient, retinal or iris scans and fingerprints. This flexible
+identification system enables the present invention to be used in conjunction with
+existing legacy systems. Since the database 122 may include medical records for a
+great number of patients, the server system 120 determines whether, based on the
+identification information input by the requestor, a unique patient match has been
+achieved, step 216. In this embodiment, the identification information input by the
+requestor could also be the security access codes set up by the patient. If the
+identification information input by the requestor does not define a unique patient in
+the database, the server system notifies the requestor that more identification
+information is needed to establish a unique patient match, step 218. If the
+identification information provided by the requestor provides a unique patient
+match, step 216, the server system prompts the requestor to enter security access
+codes for the patient. The server system then receives one or more of the security
+access codes input to the server system by the requestor, step 219. The server
+system 120 determines whether the received security access codes satisfy the
+requestor identification constraints, step 220. If they do not, the system notifies the
+requestor that the identification constraints have not been satisfied, step 222. If the
+identification constraints have been satisfied, the server system determines which of
+the assigned access codes match the received access codes input by the requestor,
+step 224, and transmits, to the request system 130 over the network 160, the
+information from the categories in which the received security access codes match
+the assigned security access codes, step 226. If more of the security access codes are
+received from the requestor, step 228, the system returns to step 224 to determine
+which of the assigned codes match the received codes. If no more codes are
+received in step 228, the process is terminated. An example of the above method will now be described with reference to
+FIG. 3, which is a schematic diagram of a patient's medical record in accordance to
+the present invention. Shown at 302 are the security access codes generated by the
+patient in step 202, FIG. 2. In this example, the security access codes are the
+patient's first and last name, zip code, eye color, street number, birth year and two
+passwords. Shown at 304 are the medical information categories generated by the
+patient in step 204. These categories include EKG data, allergies, blood type,
+serology, HIV and CD4. Shown at 306 are the security access codes that are
+assigned to the categories in step 210. As described above, security access codes
+that are easily ascertained are assigned to low security categories and security access
+codes that are more difficult to ascertain are assigned to high security categories. In
+this example, the patient's birth year is assigned to the blood type and allergies,
+while the patient-defined passwords are assigned to the HIV and CD4 categories. In
+step 212, the patient's first name and zip code, block 308, are chosen by the patient
+as the identification constraints that must be input by the requestor to establish that
+he or she is authorized to access the patient's record. The following table shows the
+response of the system of the present invention to various combinations of security
+access codes received from the requestor :
+If Requestor supplies this data System will respond with
+A. First Name"More than one patient found, No
+unique
+match"
+B. First Name, Birth Year, Key 1"Unique Match, ID constraints not
+satisfied"
+C. First Name, Zip Code, Birth Year EKG data, Allergies, Blood Type
+D. First Name, Zip Code, Birth Year, Password 1 EKG data, Allergies, Blood Type,
+Serology,
+E. First Name, Zip Code, Birth Year, EKG data, Allergies, Blood Type,
+Password 1, Password 2 Serology, HIV
+F. First Name, Zip Code, Birth Year, EKG data, Allergies, Blood Type,
+Password 1, Password 2, Eye Color Serology, HIV, CD4
+In case A, because only the first name of the patient has been received, the
+system determines that a unique patient match has not been found, step 216, and
+notifies the requestor that more identification information is needed, step 218. In
+case B, the first name, birth year and password 1 are received, step 214. Although
+these codes allow the system to identify the patient, step 216, the identification
+constraints (the first name and zip code) have not been satisfied, step 220. The
+system then notifies the requestor that more security access codes are needed to
+satisfy the identification constraints, step 222. In case C, the first name, zip code
+and birth year are received, step 214. A unique patient match is found, step 216 and
+the identification constraints are satisfied, step 220. The system then determines
+which of the assigned security access codes match the received security access
+codes, step 224, and transmits the information in the matched categories to the
+requestor over the communications network, step 226. In case C, because the zip
+code and birth year are received, referring to block 306, FIG. 3, the EKG data,
+allergy information and blood type are transmitted from the database to the
+requestor. In case D, in addition to the first name zip code and birth year, password
+1 is received, step 228. Accordingly, in addition to the information transmitted in
+case C, the patient's serology information is transmitted to the requestor. In case E,
+with the receipt of password 2, the patient's HIV data is transmitted and, in case F,
+the receipt of password 2 and the patient's eye color prompts the transmission of the
+patient's CD4 data, in addition to all of the information transmitted in the previous
+cases. While the invention has been described as including one setup system that
+accesses the server system, a plurality of setup systems may be coupled to the server
+system in order to allow patients at different locations to access the server system.Such a configuration is illustrated in Fig. 4. In this system 300, in addition to the
+setup system 110, a second server system 140 is coupleable to the server system 120
+over communications network 160 for the purpose distributing medical information
+in the manner described above. It will be understood that the server system can be
+accessed through any number of setup systems, and that any number of request
+systems may access the server system in the manner described above. In another embodiment, shown at 400 in FIG. 5, system 115 can be used
+both as the setup system, for setting up the patient's medical record on the database
+122 of server system 120, as described above, and as the request system for
+inputting security access codes and receiving medical information from the database
+122 of the server system 120, as described above. Accordingly, the present invention provides a method of and system for
+distributing medical information over a network in a granular manner, in which the
+patient determines the level of security associated with each category of his or her
+medical record. A requestor of the patient's medical information must input the
+proper security access codes to the system in order to obtain the information
+contained within the record. The system enables the patient to distribute the security
+access codes for the hierarchy of security categories to medical personnel on a"need-to-know"basis, thus reducing the risk that highly private medical information
+be exposed to unauthorized personnel. Attached as Appendix A is the Javascript and VBscript code used to
+implement the present invention and a sample database on which the invention can
+be used. The invention may be embodied in other specific forms without departing
+from the spirit or essential characteristics thereof. The present embodiments are
+therefore to be considered in respects as illustrative and not restrictive, the scope of
+the invention being indicated by the appended claims rather than by the foregoing
+description, and all changes which come within the meaning and range of the
+equivalency of the claims are therefore intended to be embraced therein.  !--#include file="adovbs, inc" %
+dim a ()
+dim patient id
+'*********************************************************************************************
+'this sub loads the request data table with the entries in the form
+sub update database with new, _patient ()
+dim time stamp
+dim numofitems
+dim counter
+time_stamp ** cstr(now() ) ' time stamp
+counter"0
+length = cint (Request. Form ("count"))'number of fields to extract from
+request form
+'create an entry in the patients table and get the new id
+set cnnl-server. CreateObject ("adodb. connection") cnnl ; Open wfiledsn=cardionet. dsnw
+set rst1 = server.CreateObject("adodb. recordset")
+rstl. ActiveConnection-cnnl
+rstl. CursorType adOpenKeyset
+rstl. LockType = adLockOptimistic
+rstl. Source ="patients"
+rstl. open
+rstl. AddNew
+rstl ("ref_data_1")=Request.Form("1")
+rst1("ref_data_2") =Request. Form ("2")
+rstl ("ref-data-3") =Request. ServerVariables ("remote_addr")
+rstl. Update
+patient id= rstl. Fields ("patient id")
+rstl. Close
+set rstl = nothing
+'add the pid data for the new patient to the pid-data table
+set rst2 =-server. CreateObject ("adodb. recordset")
+rst2. ActiveConnection = cnnl
+rst2. CursorType = adOpenKeyset
+rst2. LockType = AdLockOptimistic
+rst2. Source "pidjdata"
+rst2. Open
+for x = 1 to length'loop through items
+if len (cstr (Request. Form (cstr (x))))  0 then'append only items that have a
+value enetered
+counter = counter + 1
+redim preserve a (3, counter)
+'redim works only on last dimension, note it is turned around 2, 30
+a (0, counter)-cstr (x)'item id
+a (l, counter)"lcase (trim (Request. Form (cstr (x))))'item value
+a (2, counter) = (Request. Form ("c" cstr (x))-"on")'item is a
+required for identificationrst2. AddNew ' add a record for each entered item
+rst2 ("patient_id") = cint(patient_id)
+rst2("item_id") = cint(a(0, counter))
+rst2("value") = cstr(a(1, counter))
+rst2. update
+if f a(2, counter) then'add a record in id_pass id this is a required
+item for identification
+set rst3 = server.CreateObject("adodb.recordeset")
+rst3. ActiveConnection-cnnl
+rst3. CursorType-adOpenReyset
+rst3. LockType-adLockOptimistic
+rst3.Source = "id_pass"
+rst3. Open
+rst3. AddNew
+rst3 ("patient id") cint (patient id}
+rst3("item_id")=cint (a (O, counter))
+rst3. Update
+rst3. Close
+end if
+end if
+next
+rst2. Close
+cnnl. Close
+set rst2=nothing
+set cnnl=nothing
+a (0, 0) = cstr (counter)
+end sub
+%  HTML
+HEAD
+META NAME="GENERATOR"Content="Microsoft Visual Studio 6. 0"
+TITLE  /TITLE
+/HEAD
+body background=backgrnd. gif
+%
+call update database with new patient
+Response. Write ("Patient Added to Database")
+%
+/BODY  /HTML
+!--#include file="adovbs.inc" --  %
+dim a ()
+dim ! patient id
+'*********************************************************************************************
+'this sub loads the request data table with the entries in the form
+sub update database with new patient ()
+dim time stamp
+dim nus of items
+dim counter
+time_stamp = cstr(now()) ' time stamp
+counter-0
+length-cint (Request. Form ("count"))'number of fields to extract from
+request form
+'create an entry in the patients table and get the new id
+set cnnl g server. CreateObject ("adodb. connection")
+cnnl. Open"filedsn-cardionet. dsn"
+set rst1 = server.CreateObject ("adodb. recordset")
+rstl. ActiveConnection-cnnl
+rstl. CursorType adOpenReyset
+rstl. LockType-adLockOptimistic
+rstl. Source = "patients"
+rstl. open
+rstl. AddNew
+rstl ("ref-data-1") =Request. Form ("1")
+rstl ("ref data 2 ») =Request. Form ("2")
+rstl ("ref_data_3")=Request. ServerVariables ("remote addr")
+rstl. Update
+patient id= rstl. Fields ("patient id")
+rstl. Close
+set rstl-nothing
+'add the pid data for the new patient to the pid data table
+set rst2 = server. CreateObject ("adodb. recordset")
+rst2. ActiveConnection = cnnl
+rst2. CursorType = adOpenFeyset
+rst2. LockType = adLockOptimistic
+rst2. Source = "pid_data"
+rst2. Open
+for x = 1 to length'loop through items
+if len (cstr (Request. Form (cstr (x))))  0 then'append only items that have a
+value enetered
+counter a counter + 1
+redim preserve a (3, counter)
+'redim works only on last dimension, note it is turned around 2, 30
+a (0, counter)-cstr (x)'item id
+a (l, counter) ** lease (trim (Request. Form (cstr (x))))'item valuea (2, counter)- (Request. Form ("c"  cstr (x))-"on")'item is a
+required for identification
+rst2. AddNew'add a record for each entered item
+rst2 ("patient id^) = cint (patient id)
+rst2 ("item_id") = cint(a(0, counter))
+rst2 ("value")-cstr (a (l, counter))
+rst2. update
+if at2, counter) then'add a record in id pass id this is a required
+item for identification
+set rst3 =- server.CreateObject("adodb.recordset")
+rst3. ActiveConnection-cnnl
+rst3. CursorType = adOpenKeyset
+rst3. LockType-adLockOptimistic
+rst3. Source-"id_pass"
+rst3. Open
+rst3. AddNew
+rst3 ("patient_id")=cint(patient-id)
+rst3("item_id")=cint(a((0, counter))
+rst3. Update
+rst3. Close
+end if
+end if
+next
+rst2. Close
+cnnl. Close
+set rst2=nothing
+set cnnl=nothing
+a (0,0)-cstr (counter)
+end sub
+%  HTML
+HEAD
+META NAME="GENERATOR" Content="Microsoft Visual Studio 6. 0"
+TITLE  /TITLE  /HEAD
+body background=backgrnd.gif
+%
+call update-database_with_new_aptient
+Response. Write ("Patient Added to Database")
+%
+/HTML
+!--#include file="adovbs.inc" --
+%
+function item locked (fld name, fld value, pid)
+set rst_chk=server.CreateObject("adodb.recordset")
+rst chk. ActiveConnection-cnnl
+rst_chk.CursorType = adOpenKeyset rst chk. LockType = adLockOptimisticsql="select distinct item_id from locks where (patient_id="  cint(pid)
+" and '  fld_name  "="  cint(fld value)
+sql= sql  ") and itemid not in (select distinct item id from
+request_data where user_ip='"  user_ip  "')"
+rst_chk.Source = sql
+rst chk. Open. if rst chk. EOF then
+item locked-false
+else
+item_locked = true
+end if
+'while not (rst chk. EOF)Response. Write (" br " rst_chk. Fields ("item id")  " br ")
+rst chk. MoveNext
+'wend
+rst chk. Close
+set rst-chk=nothing
+end function
+%
+html  head  /head  body background=backgrnd. gif
+strong  Observations :  /strong
+hr
+table align=center border=3 bordercolor=#00cd cellpadding-3 width=100%   tr  th Category /th  th Parameter /th  th Observation /th t/tr
+%user_ip=Request. ServerVariables ("remote addr")
+'open the database connection
+set cnnl = server. CreateObject (^adodb. connection")
+cnnl. Operf "filedsn=cardionet.dsn"
+'extract the patient on which this ip is allowed to work on, from the online
+table
+set rst_pid-server. CreateObject ("adodb. recordset")rst_pid. ActiveConnection = cnn1
+rst_pid. CursorTyupe = adOpenKeyset rst_pid. LockType-adLockOptimisticrst_pid. Source ="select patient id from online where user_ip='"  user_ip  "'"rst_pid. Open
+if not rstpid. EOF then
+pid=cint (rst_pid. Fields ("patient_id"))
+end if
+'loop through the categories
+set rst_cat = server.CreateObject("adodb.recordset")
+rst cat. ActiveConnection = cnnl
+rst_cat.CursorType = adOpenKeyset
+rst_cat.LockType = adLockOptimistic
+rst cat. Source ="categories"
+rst_cat.Open
+while not rst cat. EOF
+cat id = cint(rst cat. Fields ("category_id"))
+cat_name= rst-cat.Fields("category_name")
+'Response. Write(cat id  "-")
+'Response. Write (cat name  ":")
+if iten locked("category_id",cat_id, pid) then'IF CATEGORY IS LOCKED
+Response. Write (" tr  td colspan=3 align=left Category "  cat name
+" is Locked /td  /tr ")
+else
+'loop through the parameters
+set rst_par server.CreateOjbect("adodb. recordset")rstjpar. ActiveConnection = cnnlrst_par. CursorType = adOpenKeysetrst_par. LockType = adLockOptimistic
+rst_par. Open
+while not rstpar. EOFparid-rstpar. Fields ("parameter id")
+par_name=rst-par.Fields("parameter_name")
+if item locked ("parameter id", par id, pid) then'IF PARAMETER
+IS LOCKED
+Response. Write (" trxtd colspan=3 align=left "
+cat-name a par name Parameter is I. ocked /td  /tr ")
+else
+'loop through the observations
+set rst_obs = server. CreateObject ("adodb. recordset")
+rst obs. ActiveConnection = cnnl
+rst obs. CursorType-adOpenKeyset rst obs. LockType-adLockOptimisticrstobs. Source ="select * from observations where
+parameter_id="  par_id  " and patient_id="  pid
+rst obs. Open
+while not rst obs. EOF
+obs id=rst obs. Fields ("observation id")
+obs value=rst obs. Fields ("value")
+if item_locked("observation_id",obs_id, pid) then'
+IF OBSERVATION IS LOCKED
+else
+Response. write (" tr  td "6 catname t" /tdxtd "
+par_name  " /td  td "  obs_value  " /td  /tr ")
+end if
+'CLOSE OBSERVATION IF
+rst obs. MoveNext
+wend'close observation loop
+rst obs. Close
+set rst obs-nothing
+end if
+'CLOSE PARAMETER IF rst_par. MoveNext
+wend'close parameter loop
+rst_par. Close
+set rst_par=nothing
+end if
+CLOSE CATEGORY IF
+rst cat. MoveNext
+wend'close category loop
+rst cat. Close
+set rst_cat=nothing
+Response. Write (" /table  /body  /html ")
+cnnl. Close
+%
+!--#include file="adovbs.inc" --
+!-- include file="setodbc. inc"
+%
+'get the category id and the observation id from the request-cat id=Request. QueryString ("catid")obx id=Request. QueryString ("obxid")
+if catid-null or obx_id=null or cat_id="" or obx_id="" then Response. Redirect "id-input_page.asp","_top"
+end if *
+' extract the patient on which this ip is allowed to work on, from the online
+table
+user_ip_Requexst.ServerVariables("remote_addr")set rst_pid-server. Createobject ("adodb. recordset")
+sql = "select patient_id from online where user_ip like '"  user_ip  "'"rst_pid. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if not rst_pid. EOF then
+pid-cint (rst_pid. Fields ("patient_id"))
+rst_pid. Close
+else
+rst_pid. Close
+set rst_pid nothing
+Response. Redirect ("id_input_page. asp")
+end if
+'get the observation text
+patient_id="  pid  " and category_id="  cat_id
+rst obx. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if not rst_obx.EOF thenobx textarst obx. Fields (O)
+end if
+rst_obx. Close
+set rst_obx=nothing
+Response. Write ("Coding for observation : "  obx_text)
+get the observation codes
+set rst_obe=server. CreateObject ("adodb. recordset")
+sql="select observation coding. code system id,
+observation-coding.code_id,coding_systems.coding_system_id,coding_systems. coding
+system name from observation_coding inner join coding-systems on
+observation_coding.code_system_id=coding_system_id where
+observation-coding.observation_id="  obx_id
+'Response. Write (" br "  sql  " br ")
+rst obc. Open sql, connobj, adOpenKeyset, adLockOptimistic
+Response. Write (obc text)
+rst obc. MoveNext
+wend
+rst obc. Close
+set rst_obc=nothing
+Response. End
+% CRTNL
+HEAD  META NAME="GENEL
+TITLE  /TITLE
+/HEAD
+BODY
+/BODY  /HTML
+TOR" Content="microsoft Visual Studio 6. 0"
+HTML
+META http-equiv="Expires" content="Tue, 20 Aug 1996 14 : 25 : 27 GMT"
+TITLE  /TITLE
+/HEAD
+frameset rows-"100, *'
+frame name"=top_frame" scr="logo_page.asp" border=0
+frameset cols="35%, 65%"
+frame name="Left_frame" src="skeleton.asp" border=1
+frame name="right_frame" src+"view_patient.asp" border=1   /frameset
+/frameset
+/HTML
+!--#include file="adovbs.inc" --
+!--#include file="setodbc.inc" --
+t
+'get the category id from the left frame t skeleton. asp) cat id=Request. QueryString ("id")
+cat_name=Requenst. QueryString ("cat name")
+if cat id=null or cat id="" then
+Response. Redirect ("id_input_pgage.asp")
+end if
+'extract the patient on which this ip is allowed to work on, from the online
+table
+user_ip=Request.ServrVariables ("remote_addr") set rst_pid-server. CreateObject ("adodb. recordset")
+sql = "select patient_id from online where user_ip like '"  user-ip  "'"rst_pid. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if not rst_pid. EOF then
+pid-cint (rst pid. Fields ("patient id))
+rst_pid.Close
+else
+rst pid. Close
+set rst_pid= nothing
+Response. Redirect ("id_input_page. asp")
+end if
+%
+HTML
+HEAD
+META NAME="GENERATOR" Content="Microsoft Visual Studio 6. 0"
+TITLE  /TITLE   /HEAD
+BODY background=backgrnd. gif
+%
+rst_pid.Open 'select value from pid_data where patient_id="  pid  ' and
+item id 3", connobj, adOpenDynamic, adLockOptimistic
+if not rst_pid. EOF then
+rst_pid. Movelast
+Response. Write" center Patient :  strong "  rst_pid. Fields (0)
+rst pid. Movefirst
+end if
+rst_pid. Close
+set rst_pid-nothing
+Response. Write (" hrwidth-90% noshade ")
+%  formaction=process new observation. asp method=post name-new obx
+input type=hidden name=pidvalue- % =pidG » input type=hidden name=cat_id value= %=cat_id%# input type=hidden name=-cat name value= %=cat name%#
+table cellspacing-2cellpadding=4
+width=80 value=" %=FormaDateTime(now(),0)% "  /td  /tr
+id=select1 name=code_system
+%
+set rst2-server. CreateObject ("adodb. recordset")sql-"select * from coding systems"
+rst2. Open sql, connobj, adOpenKeyset, adLockOptimistic
+while not rst2. EOF
+Response. Write(" option vlaue="  rst2. Fields ("coding_system id")  " "
+rst2. Fields ("coding_system_name")  " /option ")
+rst2. MoveNext
+wend
+rst2. Close
+set rst2=nothing
+%
+/SELECT  /td  /tr
+name=code_value width=40  /td  /tr -
+/table
+br clear-all  centerxinput type-submit value-"Register NewObservation"xbrxbrx/centerxhr width=90% noshade  /form
+%
+'load any existing observations for this patient into the rstl recordset
+set rstl=server. CreateObject (wadodb. recordset")
+rstl. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if rstl. EOF then
+Response. Write (" li  No Observations recorded in this category")
+else % *
+form name=edit obx method=post
+action=process_delete_observation.asp  center
+input type--hidden name-pid value= %=pid%#
+input type=hidden name=cat id value= %=cat id%#
+input type=hidden name=cat_name value= %=cat_name%#
+table border=1 width=90%
+tr  th Delete /thxth Existing
+Observations /th  th Time /th  th Coding /th  /tr   %
+while not rstl. EOF
+Response. Write (" trxtdalign=centerxinputtype=checkboxname-c"t
+rstl. Fields ("obx_id")  "  /input  /td ")
+Response. Write (" td "  rstl. Fields ("obx text")  /td ")
+Response. Write (" td " rstl. Fields("obx_time")  " /td ")
+'Response. Write ('' tdxcenterxinpattype"buttonname'*6
+rstl. Fields ("obx_id")  " value_""Edit...""   /td  /center  /tr "  chr(10))
+%
+td  center  input type=button name="b %=rst1.Fields("obx_id")% "
+value="Edit..." language=javascript onclick="window. open (' %=url% ')'"
+%
+rstl. MoveNext
+wend
+%
+/table  center. br clear=all  input type=submit value="Delete
+Observations"  /center
+/form
+%
+end if
+rstl. Close
+set rstl-nothing
+%
+/BODY
+/HTML
+!--#include file-"adovbs. inca  ? @
+!--#include file="setodbc.inc" --
+% dim arr()
+' (0, 0) holds the number of items in the array' (9, x) holds the item id' (l, x) holds the item name
+' (2,x) holds the previous value provided by the ip in previous sessions
+'*****************************************************************************
+**************
+this function loads the items and their names a blank array named arr ()
+Function get_pid_items ()
+'dim cnn
+dim rst
+dim counter
+set rst = server. CreateObject ("adodb. recordset")
+'rst. Open sql, "FILEDSN=cardionet.dsn", adOpenDynamicsql-"select * from pid items"
+rst. Open sql, connobj, adOpenDynamic
+rst. MoveFirst
+counter = 0
+while not rst. EOF
+counter-counter + 1
+redim preserve arr (3, counter+1)
+arr (0, counter) = trim (cstr (rst. Fields ("item id"). value))
+arr (l, counter) = trim (cstr (rst. Fields ("item_name").value))
+rst. MoveNext
+wend
+rst. Movefirst
+if counter   0 then
+ReDim arr (2, counter+l)
+for x = 1 to counter
+arr (0, x)-Trim (CStr (rst. Fields ("item id"). Value))
+arr (l, x)-Trim (CStr (rst. Fields ("item name"). Value))
+rst. MoveNext
+next
+arr (0, 0) = CStr(counter) getpiditems-true
+else
+get_pid_items = false
+end if
+rst. close
+Set rst-Nothing
+session. Abandon
+End Function
+'*******************************************************************************************
+'this sub loads the array with the previous values entered by the same ip user
+to the arr () array
+sub load existing values ()
+user_ip = trim (cstr (Request. ServerVariables "remote_addr")))set rst 1 server. CreateObject (» adodb. recordset")counter=cint (arr (0, 0))
+for x = 1 to counter
+'Response. Write (" br "  sql)
+rst l. Open sql, connobj, adOpenKeyset, adLockOptimistic
+'Response. Write (rst l. RecordCount
+if not (rst 1. EOF) then
+arr (2, x)=rst-1.Fields("item_value")
+'Response. Write("hello "  arr (2, x))
+else
+arr (2, x)=null
+end if
+rst l. Close
+next
+set rst 1=nothing
+end sub
+'****************************************************************************************
+'this sub generates the actual HTML grid with the values if they exist in the
+arr () array
+Sub export html ()
+Dim x
+x=0 itemsperid =* arr
+length = cint(item_per_id (0, 0))
+Response. Write( " center  strong  font size=4 color=#0000ff CareKey Patient
+Identification Page /fontX/strongxhr ")
+Response. Write (" form action=""process_id_input.asp"" method=pose ") Response. Write (" input type=hidden name=""count"" value="""  CStr (length)
+"""  /input ")
+Respohse. Write (" tablecellpadding=lcellspacing-0 border=1 ")
+color=#ffff00 Item Name /thxthxfont
+For x = 1 To Int (length/2)
+Response. Write (" td  input name="""  items_per_id(0, x)  """ size=20value-'""*  items_per_id(2,x)  """  /input  /td  td
+Response. Write (" th "  itesm_per_id(0, x + Int (length/2))t /th  td " itesm_per_id (l, x + Int (length / 2))  ' /td ")
+Response. Write(" td  input name="""  items_per_id(0, x + Int(length /
+2))  """ size=20  /input  /td  tr ")
+Next
+If (x-1) * 2   length Then
+Response. Write(" tr  th  /th  td  /td  td  /td  td
+bgcolor=MediumAquamarine  /td  th "  items_per_id(0,length)  " /th  td "
+items_per_id(1, length)  " /td ")
+Response. Write (" td  input name="""  items_per_id(0, length) Esize-20x/inputx/tdx/tr ')
+End If
+Response. Write (" /table  br  input type=""submit"" value=""Attempt Unique
+Identification""  /form ")
+End Sub
+'*****************************************************************************
+*********'HTHL CODE STARTS HERE
+%  html xheadxfont size-3 face-sans-serif  META http-eqoiv-"Expires''content-'Tue, 20 Aug 1996 14 : 25 : 27 GMT"
+TITLE Carekey Patient Identification Page /TITLE
+/READ  bodybackground=backgrnd. gif
+%
+if getpiditems () then
+call load existing values
+call export html
+end if
+connobj. close
+set connobj=nothing
+%
+HR NOSHADE
+/BODY  /HTML
+! DOCTYPE HTML PUBLIC +-//W3C/DTD HTML 3. 2 FINAL//EN"  HTML
+HEAD
+script language="javascript" for="wiindow" event="onload"
+/script
+font size=2face=serif
+script language-"javascript"
+var html text-" ;
+var toggle=false ;
+var depth=1000=
+var next sib;
+var vpos=0;
+var vmax=1;
+var temp node ;
+var xmldoc-new ActiveXObject("microsoft.XMLDOM");@mldoc. load {"make dtd. asp") ;
+loaddoc();
+function loaddoc (){
+if (xmldoc.readyState=="4"){ start {) ;
+window. section. innerHTML=html text ;
+}
+else window. setTimeout ("loaddoc ()", 200) ;
+t
+function start () {
+var root=xmldoc. documentElement ;
+stratify (vpos, root) :
+}
+function stratify (vpos, node) {
+if (vpos depth) lnode-name-node. nodeName ;
+if (node_name != '#text')
+node_att=node.attributes(0).text
+elsenode att=node. nodeName ; node text=node. text ;
+if (node text 1= toggle tabes';
+for (x=0;x vpos;x++)
+if (node_name=='obx')(
+color="0000ff" '+node_text+' /fond  br '+String.fromCharCode (10)
+html_text=html_text+local_html;
+)
+else I
+if (node. hasChildNodes()) { local html=taber+' label
+onclick-document. all ("'node+name+'"). style. display-"block* st/label ' ;
+}
+}
+else
+if (node text !")
+local html=local_html+' strong  font
+color="f0000" '+node+att"' /font  /strong  br '
+else
+local_html=local+html+' strong  fond
+color="808080" '+node_att+' /fond  /strong  br '; local html-local html+' divid-"'+node name+" '+String. fromCharCode (10) ;html text-html text+local html ;
+if (node.hasChildNodes()) {
+if (vmax vpos) vmax-vpos ;
+stratify (vpos+l, node. childNodes (0)) ;
+taber='';
+for (x=0 ; x vpos :x++)
+taber=taber+' '; )
+html text=html_text+' /div '+String. fromCharCode (10) ;
+}
+}
+temp_ndoe=node.nextSibling;
+stratify (vpos, temp_node);
+}
+}
+function toggle-empty() {
+toggles-toggle ;
+html_text='''stratify (0, xmldoc : documentElement) :
+window. section. innerHTML=html text ;
+}
+function display (flag) {
+var root=xmldoc. documentElement ;
+if (flag-1) {
+show(root); }
+if (flag=-=2) {
+hide (root) :
+)
+}
+function hide (node) {
+node name-node. nodeName ;
+if (document. all (nodename) t-null)
+document. all (node name). style. display^"none";
+}
+if (node. hasChildNodes()) {
+hide (node. childNodes (0)) ;
+}
+temp_node=node.nextSibing;
+hide (temp node) ;}
+function show (node) {
+node name-node. nodeName ;
+if (document. all (node name) !=null) {
+document. all (node name). style. display="block";
+}
+}
+if (node.hasChildNodes ()) {
+show (node. childNodes (O)); temp node=node. nextSibling ;
+show (temp node) ;
+)
+}
+/script
+/HEAD  body background=backgrnd. gif
+!-- body background=backgrnd.gif  --
+center
+input name="Id Page"value="Back to ID page"type="button"
+onclick="window. open ('id_input_page.asp','_top')"
+input name="frames"value-"Data Entry"type="button"
+onclick="window.open('frame-set-1.asp','_top')"
+/center
+br  hr noshade width=80%  br
+div id"section"  /div
+/BODY   /HTML
+!--#include file="adovbs.inc" --
+!--#include file="setodbc.inc" --
+%dim a ()
+dim user id
+'
+*****************************************************************************
+************
+'this function creates the SOL that finds the unique match using the data in
+the array
+'returns negative number is no matches, 0 if many matches, patient id if unique
+match
+Faction getpidid ()
+dim rst
+dim counter
+set rst = server. CreateObject ("adodb. recordset")part0 ="select distinct patients from pid data where ((1-1)'
+parti-and(""
+part2 = " patient_id in (select patient_id from pid data where item id="
+part3"and value like'"
+part4 = "'))" part5--)"sql a part0
+for x = l to cint (a (0, 0))
+sql = sql + partl + part2 + a (0, x) + part3 + a (l, x) + part4
+next
+sql= sql + part5
+'Response. Write (sql)
+rst. Open sql, connobj
+'Response. Write (sql)
+if not rst. EOF then rst. MoveFirst
+counter = 0
+while not rst. EOF
+counter-counter + 1 'Response. Write( " br patient found : +
+cstr (rst. Fields ("patient_id").value)+ " br ")
+rst. MoveNext
+wend 'Response. Write (" br counter :'' t counter)
+if counter 1 then'patient matched
+rst. MoveFirst getjpidid = rst. Fields ("patient id"). value
+end if
+if counter   1 then'no patients match getpidid--1
+end if
+if counter  1 then'too many patients match
+get_pid_id = 0
+end if
+set rstn Nothing session. Abandon ()
+End Function
+'***************************************************************************** ****************
+'this sub loads the request data table with the entries in the form
+sub update_database_with_user_request()
+dim time stamp
+dim nu of items
+dim rstl
+dim counter
+user id = trim (cstr (Request. ServerVariables ("remote_addr"))) ' ip address
+time stamp-cstr (now (.)'time stamp
+counter-0
+length (Request. Form ("count"))'number of fields to extract from
+request form
+'remove old entries for this ip
+set rstl = server. CreateObject ("adodb. recordset")
+rstl. CursorType- adOpenDynamic
+clear database from previous attempts
+rstl. open sql, connobj
+set rstl a nothing
+'set cnnl = server.CreateObject("adodb.connection')'cnnl. Open 'filedsn=cardionet. dsn"
+set rst2-server. Create0bject ("adodb. recordset")
+rst2. ActiveConnection = connobj
+rst2. CursorType-adOpenKeyset
+rst2. LockType = adLockOptimistic
+rst2. Source ="request data"
+rst2. Open
+for x = 1 to length'loop through items
+if len (cstr (Request. Form (cstr (x))))  0 then'append only items that have a
+value enetered
+counter = counter + 1
+redim preserve a (2, counter)
+'redim works only on last dimension, note it is turned around 2, 30
+a (0, counter) = cstr (x)'item id
+a (l, counter) = lcase (trim (Request. Form (cstr (x))))'item value
+rst2. AddNew ' add a record for each entered item
+rst2 ('user_ip") = user_id
+rst2 ("item_id") = a(0, counter)
+rst2 ("itemvalue")-a (l, counter)
+rst2 ("time stamp") = time stamp
+rst2 ("session id") æ cstr (session. SessionID)
+rst2. update
+end if
+next
+rst2. Close'cnnl. Close
+set rst2 nothing
+'set cnnl=nothing
+a (0, 0) = cstr (counter)
+end sub
+'*******************************************************************************************
+'this funciton checks to see if the items specified by the patient as required
+to his
+'identification are indeed provided. the list of those items are in table
+id pass and
+'the items provided are in table request data
+function check id_pass (pid)
+'set cnn4 = server. CreateObject ("adodb. connection")
+'cnn4. Open"filedsn-cardionet. dsn"
+userip-trim (cstr (Request. ServerVariables ("remote_addr")))
+set recset-server. CreateObject ("adodb. recordset")
+recset. ActiveConnection = connobj
+recset. CursorType-adOpenKeyset
+recset. LockType = adLockOptimistic
+'the following sql returns the item id that were not provided and are
+necessary for authorizationsql0="select item name from pid items where item id in w
+sql1=-" (select item id from idpass where (patient_id="  pid  ")"
+sql2="and item id not in"
+sql3=". 9select item_id from request data where userip like'" user ip 6no)) n
+recset. source=sql0  sqll  sql2  sql3
+recset. Open
+if recset. RecordCount 0 then'patient security specs are not met check-id_pass=O
+Response. Write (" hr  br  li  fond size=2 color=#0000cd  strong  For
+this patient, access will be authorized upon furnishing the following
+information :  /font ")
+'Response. Write (recset. RecordCount)
+while not recset. eof
+Respohse. Write (" br  li "  recset. Fields ("item name"))
+recset. movenext
+wend
+Response. Write (" br  /font ")
+elsecheckidpass=l'patient security is OK
+end if
+recset. close
+cnn4. Close
+set recset=nothing
+set cnn4=nothing
+end function
+'*****************************************************************************
+*******
+'this sub updates the online table with the access granted for this ip user for
+this patient
+sub update online (user, patient)
+set rst5 = server. CreateObject ("adodb. recordset")
+'set can5 = server.CreateObject("adodb. connection")
+'cnn5. Open"filedsn-cardionet. dsn"
+rst5. Open sql, connobj
+set rst6 = server. CreateObject ("adodb. recordset")
+rst6. ActiveConnection-connobj
+rst6. CursorType = adOpenKeyset
+rst6. Locktype = adLockOptimistic
+rst6. Source ="online"
+rst6. Open
+rst6. AddNew
+rst6 ("user ip") user
+rst6 ("patient id") =patient
+rst6 ("time_stamp") =now()
+rst6. update
+rst6. Closecnn5. Close
+set rst6-nothing
+set rst5=nothing'set cnn53nothing
+end sub********************************************************************************
+*******
+. ********************* PROGRAM START
+***********************************
+*****************************************************************************
+*******
+call update-database-with_user_request
+p = get_pidE id'calling the patient matching function  ? @
+if p_int O then
+secure=check_id_pass(cstr(p))
+if secure 1 then
+update_Online user_id,p_uint ' update the online table with the new
+access provision
+'Response. Write ("patient identified:'  p_int)
+'response. redirect (data root. asp")
+'Response. Write ("You now have access to patient "  p_int )
+Response. Redirect ("view patient. asp")
+else
+%
+html
+head
+/head
+body background=backgrnd.gif
+br  center. hr noshade width=80%  /center   br clear-all  %
+Response. Write (" br Access requirements not met for the identified
+end if
+end if
+identification again using validated data only.")
+adding or changing patient information.")'if p int 0 then ch, eck id_pass (cstr (p))
+%  tcenterkbr  br
+a href="id_input_page.asp" Back to Identification Page /a   P ambsp ;  /P
+/BODY
+/ !--#1include file="adovbs.inc" --
+!00#include file-"sectodbc.inc" --  %
+pid-Request. Form ("pid")
+obx_value=Request.Form("obx_val")
+obx_time=Requexzt.Form("obx_time")
+code system-Request. Form ("code system")
+code value Request. Form ("code value")cat_idsRequest. Form (^cat id")
+cat name=request.Form("cat_name")
+if obx value-""then
+end if
+if not (isdate (obx time)) then
+obx time now ()
+end if
+'Response.Write(" br "  pid  " br "  obx_value  " br "  obx_time  " br "
+code_system  " br "  code_value  " br "  cat_id )
+'Response. End
+set rst=server. CreateObject ("adodb. recordset")
+rst. open"observations", connobj, adOpenKeyset, adLockOptimistic
+rst. AddHew
+rst ("patient id")=pid
+rst ("obx text")=obx value
+rst ("obx time") =obx time rst ("category id") =cat id
+rst. Update
+obx id= rst. Fields ("oxid'')
+rst. Close
+'this is part of the old interface where coding was entered as part of
+the observation
+'rst. open"observation coding", connobj, adOpenKeyset, adLockOptimistic
+'rst. AddNew
+' rst("observation-id")=obx_id
+' rst("code_system-id")=code_system
+' rst ("code id") =code value
+'rst. Update
+'rst. Close
+set rst3nothing
+%  !--#1include file="adovbs.inc" --
+!--#include file="setodbc.inc" --
+%
+extract the patient on which this ip is allowed to work on, from the online
+table
+user_ip+Request.ServerVariables("remote_addr")set rstpid-server. CreateObject ("adodb. recordset")
+sql ="select patient id from online where user_ip like '"  user_ip  "'"rst_pid. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if not rst_pid. EOF then
+pid-cint (rstpid. Fields ("patient id"))
+rst_[pid. Close
+set rstpld-nothing
+elserst_pid. Close
+set rstpid-nothing
+Response. Redirect ("id_input_page. asp")
+end if
+'*****************************************************************************
+****
+'check if either a category or an observation is locked for this patient
+function item locked (fld name, fld value) fld name should be either"observation id"or"category id"
+'fld value should contain the id of the item required weather an
+observation or a category
+sql= sql  ") and item id not in (select distinct item id from
+request data where user_ip like '"  user_ip  "')"
+rst chk. Open sql, connobj, adOpenKeyset, adLockOptimistic
+if rst chk. EOF then
+item_locked - false
+else
+item locked = true
+end if'
+rst chk. Close
+set rst chk=nothing
+end function
+'if item locked ("category id", l9) then
+'Response. Write ("locked")
+else
+'Response. Write ("not locked")
+'end if
+'*********************************************************************************
+sub stratify dtd (item id, name, level)'generate the DTD from the table
+categories
+set rst=server. CreateObject "adodb. recordset")sql-"select * from categories where category parent id" iter id
+rst. Open sql, connobj, adOpenDynamic, adLockOptimistic
+tabber=""
+for x =1 to level
+next
+if rst. EOF then
+Response. Write (chr(10)  tabber  ' !ATTLIST id"  item id  " name
+CDATA """  name  """ ")
+else
+(obx*,")
+while not rst. EOFlocalid-rst. Fields ('category id"}
+rst. MoveNext
+if not rst. EOF then
+Response. Write ("
+end if
+wend
+Response. Write (")  ")
+CDATA """  name  """ ")
+rst. MoveFirst level-level+l
+while not rst. eof
+rst. Fields ("category_id"))
+cat id=rst. Fields ("category id")
+cat name=rst. Fields ("category name")
+call stratify_dtd(cat_id,cat-name,level) ' recursion origin
+rst. MoveNext
+wend
+level-level-1
+end if
+rst. Close
+set rst-nothing
+end sub
+'****************************************************************************************
+sub stratify xml (item id, name, level)'produce the actual XML data
+tabber-""
+for x-1 to level
+tabber-tabber
+next
+'check if this category is locked, in which case write the category name
+as empty and exit this branch
+if item_locked("category_id",item_id) then
+name  "_Locked"  """/ ")
+exi exit sub
+end if
+set rst-server. CreateObject ("adodb. recordset")
+set data-server. CreateObject ("adodb. recordset")
+sql="select * from categories where category_parent_id="  item_id
+rst. Open sql, connobj, adOpenDynamic, adLockOptimistic
+'check for data of this node
+sql-select * from observations where category_id="  item_id  " and
+patient_id="  pid  " order by obx time"
+data. Open sql, connobj, adOpenDynamic, adLockOptimistic
+if rst. EOF then'if the parent node has no children... check for data....
+if data. EOF then'if no data, close the node
+name  name  """/ ")
+else
+Response. Write (chr (10)  tabber  " id"  item id  " name="""
+name www w)
+while not data. EOF'if it has data, but no children, load it
+and then close the node
+obs id=cint (data. Fields (» obx id"))
+obs_txt=data.Fields("obx text")
+if item locked ("observation id", obs id) then
+obs_txt="Observation Locked"
+end if
+Response. Write (chr (10)  tabber  " "  "  obx
+data. MoveNext
+wend
+end if
+name  """ ")
+'print out all the obxs of the root element if they exist
+while not data. EOF'if it has data, print it.
+obs id=cint (data. Fields ("obx id"))
+obs_txt=data.Fields("obx_text")
+if item locked ("observation id", obs id) then obs txt="Observation Locked »
+end if
+obx_id="""  data. Fields ("obx_id")  """ ")
+Response. Write (obs txt L" /obx ")
+data. MoveNext
+wend
+data. close level=level+l
+and then drill down to the child nodes
+while not rst. eof
+catid-rst. Fields ("category id")
+cat name rst. Fields ("category name")
+call stratify_xml(cat_id, cat_name, level) 'recursion origin
+rst. MoveNext
+wend
+Response. Write (chr(10)  tabber  " /id"  item_id  " ") level level-l
+end if
+rst. Close
+set rst-nothing
+set data=, nothing
+end sub '------INITXMLBR6EWITHINTERNM.MD-----------Response. Write ("  ? xml version=""1.0"" ?  "  chr(10))
+Response. Write(" !DOCTYPE id1 ("  chr(10))
+Response. write (" !ELEMENT obx (§PCDTA) w a chr (10))
+Response. Write ( !ATTLIST obx"  chr(10))
+Response. Writes obi id CDATA #REQUIRED"  chr (10))
+Response.Write(" code_sys_id CDATA ""ICD9"""  chr(10))
+Response. Write(" code_id CDATA ""134.18"""  chr (10))
+Response. Write (" ")
+Response. Write(chr(10)  chr (10))'----------CALL THE PROCEDURE THAT CREATES THE DTD ACCORDING TO THE DATABASE----call stratify dtd (l,"xmlnet", 0)
+Response. Write (chr (10)  "] "  chr(10))'-----------CALL THE PROCEDURE THAT GENERATES THE ACTUAL XML DATA DOCUMENT-----Response. Write (chr (10)  chr (10))
+call stratify xml (l,"xilnet", 0)
+%
+!--#include file="adovbs.inc" --
+!--#include file="setodbc.inc" --  %
+pid-Request. Form ("pid")
+obx value-Request. Form ("obx val")
+obx_time=Request.Form("obx_time")
+code_system=Request.Form("code_system")
+code value=Request. Form ("code value*)
+cat_id=Request.Form("cat_id")
+cat name-Request. Form ("cat name")
+if obxjvalue-""then
+end if
+If not (isdate (obx time)) then
+obxtime-now ()
+end if
+'Response. Write (" br "  pid  " br "  obx_value  " br "  obx time  " br "
+code_system  " br "  code_value  " br "  cat_id)
+'Response. End
+set rst=server. CreateObject ("adodb. recordset")
+rst. open"observations", connobj, adOpenKeyset, adLockOptimistic
+rst. AddNew
+rst ("patient_id")=pid
+rst ("obx_text")=obx_value
+rst ("obxtime") =obxtime
+rst ("category_id")=cat_id
+rst. Updateobx id-rst. Fields ("obx_id")
+rst. Close
+'this is part of the old interface where coding was entered as part of
+the observation
+'rst. open "observation_coding", connobj, adOpenKeyset, adLockOptimistic
+'rst. AddNew rst ("observation id") =obx id
+, rst("code_system_id")=code system
+, rst("code_id")=code_value
+'rst. Update
+'rst. Close
+set rst=nothing
+%
+HTML
+HEAD
+META NAME="CareKey System Demo" Content="Center for Clinical Computing, HarvardMedical School"
+TITLE CareKey Demo /TITLE  /HEAD
+BODY background=backgrnd. gif
+font size=5 color=#00008b  strong  Center
+a href="id_input_page.asp"
+ing name="img1" src="bidmc-banner.gif" border=0 width=90%
+/a  /BODY
+/HTML
+!--#include file="adovbs.inc" --
+!--#include file="setodbc.inc" --
+%
+sub stratifydtd (itemid, name, level)'generate the DTD from the table
+categories
+set rst server. CreateObject ("adodb. recordset")
+sql="select * from categories where category_parent_id="  item_id
+rst. Open sql, connobj, adOpenDynamic, adLockOptimistic
+tabber=""
+for x 1 to level
+tabber=tabber  " "
+next
+(obx*)  ")
+Response. Write (chr(10)  tabber  " !ATTLIST id"  item id)
+Response. Write (chr (10)  tabber  " name CDATA """  name  """")
+Response. Write (chr (10)  tabber  " cat_id CDATA """  item_id
+""" ")
+Response. Write (chr (10))
+else
+Response. Write (chr (10)  tabber  "  ! ELEMENT id"item id a (obx*,")
+while not rst. EOF
+local id_rst. Fields ("category_id")
+Response. Write ( "id"  local id  "*")
+rst. MoveNext
+if not rst. EOF then
+Response. Write (",")
+end if
+wend
+Response. Write (")  ")
+Response. Write (chr (10)  tabber a"name CDATA""" name a
+""" ")
+Response. Write (chr (10))
+CDATA """  name  """ ")
+rst. MoveFirst level=level+l
+while not rst. eof
+'Response. Write (", stratify level level " :" 6
+rst. Fields ("category_id")) cat id=rst. Fields ("category id")
+cat name-rst. Fields ("category name")
+call stratify dtd (cat id, cat name, level)'recursion origin
+rst. MoveNext
+wend
+level-level-l
+end if
+rst. Close
+set rst-nothing
+end sub
+end sub***********
+sub stratifyxml (itemid, name, level)'produce the actual XML data
+tabber=""
+for x-1 to-level
+tabber-tabber
+next
+set rst=server. CreateObject ("adodb. recordset")
+set data-server. CreateObject ("adodb. recordset")
+sql="select * from categories where categorvjparentid-" itemid
+rst. Open sql, connobj, adOpenDynamic, adLockOptimistic
+name="""  name  """/ ")
+else'if the parent node has children... check for data.... Response. Write (chr (10)  tabber  " id"  item id  " name="""
+name  """ ")
+'print out all the obxs of the root element if they exist
+level=level+1
+'and then drill down to the child nodes
+while not rst. eof cat id=rst. Fields ("category id")
+cat name=rst. Fields ("category name")
+call stratify xml (cat id, cat name, level)'recursion origin
+rst. MoveNext
+wend
+level-level-l
+end if
+rst. Close
+set rst-nothing
+set data-nothing
+end sub
+' --------- INIT XML PAGE WITH INTERNA. DTD------Response.Write("  ? xml version=""1.0""? "  chr(10))
+Response. Write ("  ! DOCTYPE idl [" chr (10))
+Response. write ("  ! ELEMENT obx (#PCDATA)  "chr (l0))
+Response. Write (chr (10) chr (10))'--------CALL THE PROCEDURE THAT CREATES THE DTD ACCORDING TO THE DATABASE----call stratify dtd (l,"xmlnet", 0)
+Response. Write (chr (10) a chr (10))
+'------CALL THE PROCEDURE THAT GENERATES THE ACTUAL XML DATA DOCUMENT--Response. Write (chr(10)  chr(10))
+call stratify_xml(1,"xmlnet",0)
+%
+!-- include file="adovbs.inc" --
+!--#include file="setodbc.inc" --  %
+dim arr ()
+counter=0-pid=Request. Form ("pid")cat id-Request. Form ("cat_id")
+catname-Request. Form ("catname")
+set rstl-server. CreateObject ("adodb. recordset")sql="select obx id from observations where patient_id="  pid a and
+category_id="  cat_id
+rstl. Open sql, connobj, adOpenDynamic, adLockOptimistic
+while not rstl. EOF obxid-rstl. Fields ("obx id")
+cname="c"  obxidcheckid=Request. Form (cname)
+if checkid  "" then
+counter-counter+1
+redim preserve arr (counter+l)
+arr (counter)-obxid
+'Response. Write (obxid  " br ")
+rstl. Delete adAffectCurrent
+rst1.MovePrevious
+end if
+rstl. MoveNext
+wend
+'Response. Write ("tbr "  pid  " br "  cat_id)
+rstl. Close
+sql-""sql-"delete from observation coding where observation id in {"
+for x = 1 to counter
+sql=sql  arr (x)
+next
+'Response. Write (sql)
+rstl. open sql, connobj, adOpenDynamic, adLockOptimistic
+'recordset closes automatically after deletion
+set rstl==nothing
+%
+!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3. 2 FINAL//EN"
+HTML  HEAD
+font size-2 face=serif
+script language="javascript"
+var html text-'';
+var toggle-false :
+var depth=1000 :
+var next sib;
+var vpos-0 ;
+var vmax=1;
+var temp node ;
+var cat id ;
+var xmldoc=new ActiveXObject ("Microsoft. XMLDOM") ixmldoc. load ("prepare skeleton. asp") ;
+loaddoc();
+function loaddoc () {
+if (xmldoc.readyState-"4") { start () ;
+window. section. innerHTML=html text; } _
+else window. setTimeout("loaddoc()", 1000 );
+}
+}
+function start(){
+var root=xmldoc. documentElement ;
+stratify (vpos, root) ; }
+function stratify (vpos, node) {
+if (vpos depth) {node name=node. nodeName ;
+if (node_name != '#text')
+node_att=node. attributes (0). text
+elsenode att=node. nodeName ;
+node text=node. text ;
+taber='';
+if (node. hasChildNodes()){
+local html=taber+' label
+local htmlalocal html+' label
+else
+cat_id=node. attributes (1). text : localhtml=-localhtml+' strongXfont
+local_html=local_html+' div
+id="'+node_name+'" '+String.fromCharCode(10); html text-html text+local html ;
+if (node. hasChildNodes()){
+if (vmax vpos) vmax=vpos ;
+stratify (vpos+l, node. childNodes (0)) :
+taber='';
+for (x=0; x vpos; x++)
+taber-taber+'' ;
+}
+html_text=html_text+' /div '+String.fromCharCode(10);
+temp node-node. nextSibling ;
+stratify (vpos, temp node) :
+}
+}
+function display (flag) {
+var root=xmldoc. documentElement ;
+if (flag-l) {
+show (root) ;
+if (flag=2) {
+hide (root) ; }
+function hide (node) { node name=node. nodeName ;
+document. all (node name). style. display="none";
+if (node. hasChildNodes()){
+hide (node. childNodes (0)) ;
+}
+temp_node=node.nextSibling;
+hide (temp node) ;
+}
+function show (node) {
+node name=node. nodeName ;
+document. all (node name). style. display-"block" ;
+if (node. hasChildNodes ()) {
+show (node. childNodes (0)): }
+temp_node=node.nextSibling;
+show (temp node) ;
+}
+/script   /HEAD
+onclick-"window. opent'viex patient. asp','right frame')'
+/center
+br  hr noshade width-80%   br
+div id-"section''x/div  /BODY
+/HTML
+%Microsoft ADO -------- -------- ---..@ (c) 1996-1998 Microsoft Corporation. All Rights Reserved.'ADO constants include file for VBScript
+"------------------------------------------------------------'---- CursorTypeEnum Values-Const adOpenForwardOnly = 0
+Const adOpenKeyset = 1
+Const adOpenDynamic-2
+Const adOpenStatic-3
+Const adLockPessimistic = 2
+Const adLockOptimistic = 3
+Const aduseClient = 3'----DataTypeEnum Values
+Const adEmpty= 0
+Const adTinyInt = 16
+Const adSmallInt 2
+Const adinteger 3
+Const adBigInt = 20
+Const adUnsignedTinyInt = 17
+Const adUnsignedSmallInt = 18
+Const adUnsignedInt = 19
+Const adUnsignedBigInt-21
+Const adSingle = 4
+Const adDouble = 5
+Const adCurrency-6
+Const adDecimal = 14
+Const adNumeric = 131
+Const adBoolean = 11
+Const adError = 10
+Const adUserDefined = 132
+Const adVariant-12
+Const adIDispatch = 9
+Const adIUnknown s 13
+Const adGUID = 72
+Const adDate = 7.Const adDBDate = 133
+Const adDBTime = 134
+Const adDBTimeStamp = 135
+Const adBSTR = 8
+Const adChar =129
+Const adVarChar = 200
+Const adLongVarChar-201
+Const adWCHar = 130
+Const adVarWChar = 202
+Const adLongVarWChar = 203
+Const adBinary = 128
+Const adVarBinary = 204
+Const adLongVarBinary 205
+Const adChapter = 136
+Const adFileTime = 64
+Const adDBFileTime = 137
+Const adPropVariant = 138
+Const adVarNumeric = 139
+Const adRecInvalid =  H0000010
+Const adRecMultipleChanges-M0000040
+Const adPosBOF =-2
+Const adPosEOF =-3
+'----enum Values---Const adBookmarkCurrent = 0
+Const adBookmarkFirst = 1
+Const adBookmarkLast = 2
+'---- MarshalOptionsEnum Values ---Const adMarshalAll = 0
+Const adMarshalModifiedOnly = 1'----AffectEnum Values---Const adAffectCurrent = 1
+Const adAf$ectGroup = 2
+Const adAffectAll = 3
+Const adAffectAllChapters-4
+'---- ResyncEnum Values--Const adResyncUnderlyingValues 1
+Const adResyncAllValues = 2'----CompareEnum Values
+Const adCompareLessThan = 0
+Const adCompareEqual = 1
+Const adCompareGreaterThan = 2
+Const adCompareNoteEqual = 3
+Const adCompareNotComparable 4
+'---- FilterGroupEnum Values
+Const adFilterNone = 0
+Const adFilterPendingRecords 1
+Const adFilterAffectedRecords-2
+Const adFilterFetchedRecords = 3
+Const adFilterPredicate = 4
+Const adFilterConflictingRecords-5'----SearchDirectionEnum ValuesConst adSearchForward = 1
+Const adSearchBackward = -1
+'---- PersistFormatEnum Values
+Const adPersistADTG = 0
+Const adPersistXML = 1
+Const adPersistHTML = 2
+'---- StringFormatEnum ValuesConst adStringXML = 0
+Const adStringHTML = 1
+Const adClipString = 2
+'---- ADCPROP UPDATECRITERIA ENUM Values ---Const adCriteriaKey = 0
+Const adCriteriaAllCols = 1
+Const adCriteriaUpdCols = 2
+Const adCriteriaTimeStamp = 3
+'----ADCPROP ASYNCTHREADPRIORITY ENUM Values
+Const adPriorityLowest = 1
+Const adPriorityBelowNormal = 2
+Const adPriorityNormal = 3
+Const adPriorityAboveNormal = 4
+Const adPriorityHighest= 5'----ConnectPromptEnum Values-Const adPromptAlways = 1,
+Const adPromptComplete-2
+Const adPromptCompleteRequired = 3
+Const adPromptNever = 4
+'---- ConnectModeEnum Values---Const adModeUnknown = 0
+Const adModeRead 1
+Const adModeWrite = 2
+Const adModeReadWirte = 3
+Const adModeShareDenyRead = 4
+Const adModeShareDenyWrite-8
+'---- EventStatusEnum Values
+Const adRsnDelete-2
+Const adRsnUpdate-3
+Const adRsnUndoUpdate-4
+Const adRsnUndoAddNew-5
+Const adRsnUndoDelete-6
+Const adRsnRequery 7
+Const adRsnResynch-8
+Const adRsnClose-9
+Const adRsnMove = 10
+Const adRsnFirstChange-11
+Const adRsnMoveFirst = 12
+Const adRsnMoveNext 13
+Const adRsnMovePrevious = 14
+Const adRsnMoveLast ; 15
+'---- SchemaEnum Values---Const adSchemaProviderSpecific-1
+Const adSchemaAsserts = 0
+Const adSchemaCatalogs = 1
+Const adSchemaCharacterSets = 2
+Const adSchemaCollations = 3
+Const adSchemaGolumns = 4
+Const adSchemaCheckConstraints = 5
+Const adSchemaConstraintColumnUsage 6
+Const adSchemaConstraintTableUsage 7Const adSchemaKeyColumnUsage = 8
+Const adSchemakeyColumnUsage = 8
+Const adSchemaTableConstraints = 10
+Const adSchemaColumnsDomainUsage = 11
+Const adSchemaIndexes = 12
+Const adSchemaColumnPrivileges = 13
+Const adSthemaTablePrivileges 14
+Const adSchemaUsagePrivileges = 15
+Const adSchemaProcedures = 16
+Const adSchemaSchemata-17
+Const adSchemaSQLLanguages = 18
+Const adSchemaStatistics = 19
+Const adSchemaTables-20
+Const adSchemaTranslations = 21
+Const adSchemaProviderTypes = 22
+Const adSchemaViews-23
+Const adSchemaViewColumnUsage = 24
+Const adSchemaViewTableUsage = 25
+Const adSchemaProcedureParameters-26
+Const adSchemaForeignKeys 27
+Const adSchemaPrimaryKeys = 28
+Const adSchemaProcedureColumns = 29
+Const adSchemaDBInfoKeywords-30
+Const adSchemaDBInfoLiterals = 31
+Const adSchemacubes = 32
+Const adSchemaDimensions = 33
+Const adSchemaHierarchies = 34
+Const adSchemaLevels = 35
+Const adSchemaMeasures = 36
+Const adSchemaProperties-37
+Const adSeekGT-H8
+</txts>
+</record>

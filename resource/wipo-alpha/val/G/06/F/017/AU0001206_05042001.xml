@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE record SYSTEM "../../../../ipctraining.dtd">
+<record cy="WO" an="AU0001206" pn="WO012406220010405" dnum="0124062" kind="A1">
+<prs>
+<pr prn="AU19990930 PQ 3205"/>
+</prs>
+<ipcs ed="7" mc="G06F01740"></ipcs>
+<pas>
+<pa>TECHNOLOGY INVESTMENTS LTD</pa>
+<pa>HIGGINS, Christopher, Lyndon</pa>
+</pas>
+<tis>
+<ti xml:lang="EN">METHOD OF DISPLAYING INFORMATION UNITS, FEEDBACK AND ADVERTISEMENTS
+ON A WEBSITE
+</ti>
+</tis>
+<abs>
+<ab xml:lang="EN">The invention is a method of displaying information units, feedback and advertisements
+on a website. More specifically, it is a method which facilitates the posing and
+answering of questions of public interest, the gathering and distribution of
+news and the display of geodemographically targeted advertisements. The method
+involves receiving the information unit from an information unit entry device,
+displaying the information unit on the web site, receiving the information unit
+feedback from a feedback entry device, displaying at least part of the feedback
+on the website. The information unit either a question, an answer; or a news item.
+The invention also involves a method of displaying geodemographically targeted
+advertisements on a web site, the web site in communication with an information
+unit database storing a set of information units each having an associated information
+unit profile and an advertisement database storing a set of advertisements each
+having an associated advertisement profile. The method involves searching
+the information unit database, identifying a particular information unit and
+its associated profile, searching the advertisement database, identifying
+a selected advertisement having an associated profile which most closely matches
+the particular information unit's profile and displaying the selected
+advertisement on the web site.</ab>
+</abs>
+<cls>
+<cl xml:lang="EN">CLAIMS:
+1. A method of receiving and displaying an information unit on a website and
+receiving and displaying information unit feedback on said website, said method
+including the steps of :
+(a) receiving said information unit from an information unit entry device;
+(b) displaying said information unit on said web site;
+(c) receiving said information unit feedback from a feedback entry device; and
+(d) displaying at least part of said feedback on said website.2. A method according to claim 1 wherein said step of receiving said information
+unit from an information unit entry device includes the step of reviewing the received
+information unit and either:(i) accepting said information unit; or(ii) rejecting said information unit.3. A method according to claim 2 wherein said information unit has a
+corresponding author and a corresponding reviewer, and wherein the step of accepting
+said information unit includes the additional steps of :
+(a) allocating an incentive to said author; and
+(b) allocating an incentive to said reviewer.4. A method according to claim 2 wherein said information unit has a
+corresponding author and a corresponding reviewer, and wherein the step of rejecting
+said information unit includes the additional steps of :
+(a) forwarding a rejection message to said author; and
+(b) allocating an incentive to said reviewer.5. A method according to any one of the preceding claims wherein said
+information unit is one or more of :
+(i) a question ;
+(ii) an answer; or
+(iii) a news item.6. A method according to claim 5 wherein said information unit is a question
+having a corresponding addressee and wherein said step of displaying said information
+unit on said web site includes the steps of :
+(a) displaying said question on said web site; and
+(b) forwarding said question to said addressee.7. A method according to claim 5 wherein said information unit is a news item
+having a corresponding set of potential media contacts and wherein said step of
+displaying said information unit on said web site includes the steps of :
+(a) displaying said news item on said web site; and
+(b) forwarding said news item to said contacts.8. A method according to claim 7 wherein said media contacts include one or
+more of :
+(i) a television broadcaster;(ii) a printed media publisher; or
+(iii) a radio broadcaster.9. A method according to any one of the preceding claims wherein said
+information unit is one or more of :(i) an issue statement; or
+(ii) an issue response.10. A method according to any one of the preceding claims wherein said website
+includes a plurality of web pages, and wherein said step of displaying at least part of
+said feedback on said web site includes the step of displaying said feedback one of :
+(i) on the same web page as said information unit;
+(ii) near said information unit; or
+(iii) linked to said information unit.11. A method according to any one of the preceding claims wherein said step of
+receiving said information unit includes the additional steps of :
+(a) receiving a set of information units;
+(b) generating a set of information unit profiles;
+(c) associating each of said units with one of said profiles; and
+(d) storing said units and their associated profiles in an information unit database.12. A method according to claim 11 wherein said web site is in communication
+with an advertisement database storing a set of advertisements each having an
+associated advertisement profile and wherein said method includes the steps of :
+(a) searching said information unit database;
+(b) identifying said information unit's associated profile;
+(c) searching said advertisement database;
+(d) identifying a selected advertisement having an associated profile which most
+closely matches said information unit profile; and
+(e) displaying said selected advertisement on said web site.13. A method according to claim 12 wherein said step of searching said
+advertisement database is preceded by the step of :
+(a) receiving a set of advertisements;
+(b) generating a set of advertisement profiles;
+(c) associating each of said advertisements with one of said profiles; and
+(d) storing said advertisements and their associated profiles in an advertisement
+database.14. A method according to claim 12 or claim 13 wherein said website includes a
+plurality of web pages, and wherein said step of displaying said selected advertisement
+on said web site includes the step of displaying said advertisement one of :
+(i) on the same web page as said information unit;(ii) near said information unit; or
+(iii) linked to said information unit.15. A method according to claim 14 wherein said method further includes the stepsof :
+(a) receiving member identification information from a member via said feedback
+entry device;
+(b) receiving a member profile from said feedback entry device;
+(c) associating said member identification information with said member profile;
+and
+(d) storing said member identification information and its associated profile in a
+member database.16. A method according to claim 15 wherein said step of displaying said selected
+advertisement on said web site is followed by the additional steps of :
+(a) detecting a particular member viewing said selected advertisement, said
+particular member having particular member identification information;
+(b) searching said member database;
+(c) identifying said particular member identification information's associated
+profile;
+(d) searching said advertisement database;
+(e) identifying said selected advertisement's associated profile; and(f) comparing said particular member profile with said selected advertisement
+profile.17. A method according to claim 16 wherein said step of comparing said particular
+member profile with said selected advertisement profile is followed by the additional
+steps of :
+(g) amending said selected advertisement profile to more closely resemble said
+particular member profile; and
+(h) storing said selected advertisement's amended associated profile in said
+advertisement database. 18. A method according to claim 16 wherein said step of comparing said particular
+member profile with said selected advertisement profile is followed by the additional
+steps of :
+(g) amending said particular member profile to more closely resemble said
+selected advertisement profile; and
+(h) storing said particular member identification information's amended associated
+profile in said member database.19. A method of displaying geodemographically targeted advertisements on a web
+site, said web site in communication with:
+an information unit database storing a set of information units each having an
+associated information unit profile; and
+an advertisement database storing a set of advertisements each having an
+associated advertisement profile;
+and wherein said method includes the steps of :
+(a) searching said information unit database;
+(b) identifying a particular information unit and its associated profile;
+(c) searching said advertisement database;
+(d) identifying a selected advertisement having an associated profile which most
+closely matches said particular information unit's profile; and
+(e) displaying said selected advertisement on said web site.20. A method according to claim 19 wherein said website includes a plurality of
+web pages, and wherein said step of displaying said selected advertisement on said
+web site includes the step of displaying said advertisement one of :
+(i) on the same web page as said particular information unit;
+(ii) near said particular information unit; or
+(iii) linked to said particular information unit.21. A method according to claim 19 or claim 20 wherein said method further
+includes the steps of :
+(a) receiving member identification information from a member via a feedback
+entry device;
+(b) receiving a member profile from said feedback entry device;
+(c) associating said member identification information with said member profile;
+and
+(d) storing said member identification information and its associated profile in a
+member database.22. A method according to claim 21 wherein said step of displaying said selected
+advertisement on said web site is followed by the additional steps of :
+(a) detecting a particular member viewing said selected advertisement, said
+particular member having particular member identification information;
+(b) searching said member database and identifying said particular member
+identification information's associated profile;
+(c) searching said advertisement database and identifying said selected
+advertisement's associated profile ; and
+(d) comparing said particular member's profile with said selected advertisement's
+profile.23. A method according to claim 22 wherein said step of comparing said particular
+member profile with said selected advertisement profile is followed by the additional
+steps of :
+(g) amending said selected advertisement profile to more closely resemble said
+particular member profile; and
+(h) storing said selected advertisement's amended associated profile in said
+advertisement database.24. A method according to claim 22 wherein said step of comparing said particular
+member profile with said selected advertisement profile is followed by the additional
+steps of :
+(g) amending said particular member profile to more closely resemble said
+selected advertisement profile; and
+(h) storing said particular member identification information's amended associated
+profile in said member database.25. A method according to any one of claims 19 to 24 wherein said step of
+searching said information unit database is preceded by the steps of :
+(a) receiving a set of information units;
+(b) generating a set of information unit profiles;
+(c) associating each of said units with one of said profiles; and
+(d) storing said units and their associated profiles in said information unit
+database.26. A method according to any one of claims 19 to 25 wherein said step of
+searching said advertisement database is preceded by the steps of :
+(a) receiving a set of advertisements;
+(b) generating a set of advertisement profiles;
+(c) associating each of said advertisements with one of said profiles; and
+(d) storing said advertisements and their associated profiles in said advertisement
+database.27. An internet web site which performs the method as claimed in any one of
+claims 1 to 26.28. A computer program which performs the method as claimed in any one of
+claims 1 to 26.29. A data carrier which stores a computer program which performs the method as
+claimed in any one of claims 1 to 26.30. A method of receiving and displaying an information unit on a website and
+receiving and displaying information unit feedback on said website substantially as
+herein described with reference to the accompanying drawings.31. A method of displaying geodemographically targeted advertisements on a web
+site substantially as herein described with reference to the accompanying drawings.32. A computer implemented method for the posing and answering of questions
+including the steps of :
+(a) receiving a question and suggested addressee information from a question
+author via a question entry device;
+(b) soliciting an answer to said question from an addressee; and
+(c) displaying said question on an internet web site which is accessible by a
+plurality of visitors.33. A method according to claim 32 further including the additional steps of :
+(a) receiving an answer to said question from said addressee; and
+(b) displaying said answer on said host computer.34. A method according to either claim 32 or claim 33 further including the
+additional steps of
+(a) receiving visitor feedback information about one or more of :(i) said question; or
+(ii) said answer;
+from a visitor feedback entry computer; and
+(b) displaying at least part of said visitor feedback information as displayed
+feedback information on the host computer.35. A system for the posing and answering of questions including:
+(a) a question entry device which receives a question and suggested addressee
+information from a question author;
+(b) an answer solicitor which solicits an answer to said question from an
+addressee; and
+(c) a website which is accessible by a plurality of visitors and which displays said
+question. 36. A system according to claim 35 further including an answer receiver which
+receives an answer to said question from said addressee; and displays said answer on
+said host computer. 37. A system according to either claim 35 or claim 36 further including:
+(a) a visitor feedback entry computer which receives visitor feedback information
+about one or more of :(i) said question; or
+(ii) said answer
+and wherein said host computer displays at least part of said visitor feedback
+information as displayed feedback information.38. A software program for the posing and answering of questions including:
+(a) a question entry program which receives a question and suggested addressee
+information from a question author;
+(b) an answer soliciting program which solicits an answer to said question from an
+addressee; and
+(c) a host program which is accessible by a plurality of visitors and which displays
+said question.39. A system according to claim 38 further including an answer receiving program
+which receives an answer to said question from said addressee and displays said
+answer via said host program.40. A system according to either claim 38 or claim 39 further including:
+(a) a visitor feedback entry program which receives visitor feedback information
+about one or more of :
+(i) said question; or
+(ii) said answer
+and wherein said host program displays at least part of said visitor feedback
+information as displayed feedback information
+41. A method of posing questions of public interest to accountable persons
+including the steps of :
+(a) displaying a question addressed to said accountable person on an Internet
+website;
+(b) receiving feedback on the degree of public interest in said question from a
+plurality of visitors to said website;
+(c) calculating an interest value of said question by comparing at least one
+importance factor to a predetermined set of importance criteria; and
+(d) displaying the interest value of said question on said website.42. A method according to claim 41 further including the steps of :
+(a) displaying at least one answer on said website, said answer corresponding to
+said question and being received from said accountable person;
+(b) receiving feedback on the adequacy of said answer from said visitors to said
+website; and
+(c) calculating an adequacy value of said answer by comparing at least one
+adequacy factor to a predetermined set of adequacy criteria.43. An electronic forum for the posing and answering of questions of public
+interest said electronic forum including a question database including a plurality of
+question records, each question record including:(i) a question posed by a question author;(ii) question addressee information; and(iii) importance information provided by a plurality of visitors.44. An electronic forum as claimed in claim 43 further including an answer
+database including a plurality of answer records corresponding to the plurality of
+question records, each answer record including:
+(a) an answer flag indicating whether the question has been answered or not;
+(b) an answer provided by said question addressee; and
+(c) adequacy information provided by a plurality of visitors.45. A method of managing the display of advertisements on a website including
+the steps of :
+(a) receiving a plurality of advertisements;
+(b) determining an advertisement demographic profile corresponding to each of
+said advertisements;
+(c) receiving website content;
+(d) determining a content demographic profile corresponding to said website
+content;
+(e) comparing said content demographic profile with each of said advertisement
+demographic profiles;(f) identifying a selected advertisement whose advertisement demographic profile
+most closely matches said content demographic profile; and
+(g) displaying said selected advertisement on said web site in close proximity to
+said website content.46. A method according to claim 45 wherein said content and advertisement
+demographic profiles are each stored so as to facilitate the creation of a multidimensional demographic matrix (MDDM) map.47. A method according to claim 46 wherein said advertisement demographic
+profiles include MDDM maps corresponding to one or more of :
+(a) the advertisement itself ;
+(b) the product or service being advertised;
+(c) the profiles of visitors to whom the advertisement or product is likely to appeal.48. A method according to claim 46 or claim 47 wherein said content demographic
+profiles include MDDM maps corresponding to one or more of :
+(a) a particular page of said website; and
+(b) a likely visitor to said page.49. A method according to any one of the precedign claims wherein said profiles
+include demographic factors corresponding to one or more of :
+(a) nationality information;
+(b) age information ;
+(c) occupation information;
+(d) education information;
+(e) residence information;(f) disposable income information;
+(g) marital status information;
+(h) number of dependants information;(i) hobby information; and(j) drivers licence information.50. A computer implemented method for the gathering and distributing of news
+information including the steps of :
+(a) receiving an information unit from an information unit author via aninformation unit entry device; and
+(b) displaying said information unit on an internet web site.51. A method according to claim 50 wherein further including the additional stepsof:
+(a) receiving visitor feedback information about said information unit from a
+visitor feedback entry computer; and
+(b) displaying at least part of the visitor feedback information as displayed
+feedback information on said web site.52. A method according to any one of claims 1 to 25 wherein said website is in
+communication with a member database storing a member profile corresponding to
+each member, and wherein the step of identifying a selected advertisement and
+displaying said advertisement on said website includes the steps of :
+(a) detecting a particular member viewing said website;
+(b) searching said member database and identifying said particular member's
+corresponding profile;
+(c) searching said advertisement database and identifying a selected advertisement
+having an associated profile which most closely matches said member's profile; and
+(d) displaying said selected advertisement on said web site.53. A method according to claim 52 wherein said member database is a pseudo
+member database storing a pseudo member profile corresponding to each pseudo
+member.54. A method according to claim 53 wherein said pseudo member profile is
+generated using the steps of :
+(a) assigning a generic profile to said pseudo member profile;
+(b) detecting said pseudo member viewing a particular information unit;
+(c) searching said information unit database and identifying said particular
+information unit's associated profile;
+(d) comparing said pseudo member's profile with said particular information
+unit's profile;
+(e) amending said pseudo member's profile to more closely resemble said
+particular information unit's profile; and(f) storing said pseudo member's amended profile in said pseudo member
+database.55. A method according to claim 53 wherein said pseudo member profile is
+generated using the steps of :
+(a) assigning a generic profile to said pseudo member profile;
+(b) detecting said pseudo member viewing a particular advertisement;
+(c) searching said advertisementdatabase and identifying said particular
+advertisement's associated profile;
+(d) comparing said pseudo member's profile with said particular advertisement's
+profile;
+(e) amending said pseudo member's profile to more closely resemble said
+particular advertisement's profile; and(f) storing said pseudo member's amended profile in said pseudo member
+database.56. A method according to either one of claims 54 or 55 wherein said pseudo
+member's profile is incrementally amended as said pseudo member views additional
+information units and advertisements.57. A method according to claim 6 wherein said step of forwarding said question
+to said addressee is repeated when predetermined criteria are met.58. A method according to claim 57 wherein said predetermined criteria include:
+(a) time criteria; and
+(b) feedback level criteria.59. A method according to any one of the preceding claims wherein the step of
+receiving said information unit feedback from said feedback entry device includes:
+(a) receiving an update indication which indicates whether the feedback provider
+wishes to receive an update on the status of the information unit.60. A method according to claim 59 wherein said update includes:
+(a) an indication that a particular question has been answered;
+(b) a copy of an answer received for a particular question; or
+(c) further new items related to a particular news item.61. A method according to any one of the preceding claims wherein said
+information units are questions and wherein said questions are stored in question
+records in a question database, each question record including:
+(i) a question posed by a question author;
+(ii) question addressee information;(iii) an answer flag indicating whether the question has been answered or
+not; and(iii) importance information provided by a plurality of visitors.(b) an answer provided by said question addressee; and
+(c) adequacy information provided by a plurality of visitors.63. A method according to any one of the preceding claims wherein said website is
+in communication with a member database storing a plurality of member records, each
+member record including an answer flag corresponding to a particular question
+indicating that the member wishes to be advised when the particular question has been
+answered.</cl>
+</cls>
+<txts>
+<txt xml:lang="EN">TITLE :"Method Of Displaying Information Units, Feedback And
+Advertisements On A Website"
+FIELD OF THE INVENTION
+The present invention relates to a method of displaying information units,
+feedback and advertisements on a website and in particular to a method which
+facilitates the posing and answering of questions of public interest, the gathering and
+distribution of news and the display of geodemographically targeted advertisements. The invention has been developed primarily for use with an internet web site and
+will be described hereinafter with reference to this application. However, it will be
+appreciated that the invention is not limited to this particular field of use.BACKGROUND
+In democratic societies individuals have traditionally banded together in order
+to draw their leaders'attention to particular issues or questions of concern to them.Common methods of gathering support from other individuals have been by means of
+petitions, rallies, picket lines and the like. It goes without saying that leaders in the
+political or corporate areas are more inclined to provide an answer to a question if a
+large number of people have expressed interest in it, as opposed to a question posed by
+one lone individual. Such prior art methods of obtaining support for a cause, or an answer to a
+question, usually require a great deal of human effort. In the example of a petition,
+one or more individuals must speak to, and obtain the feedback from, a large number
+of other individuals by physically asking each one of them whether they are interested
+in the question at hand, or if they support the cause. The act of physically speaking to
+a large number of individuals, or interest groups, therefore requires considerable
+effort. In the case of a rally or petition, assessing the level of public interest in a
+particular issue or question is determined by the size of the rally or petition. Arranging
+such a rally often requires a great deal of organisation, such as the posting of posters,
+arranging a starting place for the rally, speaking to numerous people and asking them
+to show their support by attending the rally. Such prior art methods of assessing and displaying public interest in a
+particular question or cause have a number of disadvantages. Firstly, such methods usually require a great deal of effort by many individuals
+to gain enough public support to bring the issue/question to the attention of the leader
+or corporation concerned. Secondly, such prior art methods do not accurately show the degree of public
+interest in a question or issue. The number of people attending a rally, or signing a
+petition is not necessarily indicative of the extent of public support for an issue. A
+rally or petition may over-represent or under-represent the public interest in the cause
+or question concerned. In the case of a rally, two hundred people may attend a rally
+but many more may support the cause of the rally but may not have sufficient
+inclination or ability to attend. As such, a rally may under-represent the degree of
+public interest. Alternatively, in the case of a petition, such petitions usually only
+show how many people approve of the question being posed, or the cause being
+supported, and there is no indication of how many people refused to sign the petition. For example, a petition with one thousand names on it may appear fairly persuasive to
+the recipient of that petition. However, it is feasible that ten thousand people may
+have disagreed with, or not cared about, the question being posed, and refused to sign
+the petition. As such, a petition may over-represent the degree of public interest in the
+cause or question concerned. In addition the role of news gathering has, in the past, usually been performed
+by employed journalists working for large media organisations. Such organisations
+generate a great deal of revenue from sales of their particular media and advertising
+space. Such revenues are not often passed down to the journalists who research and
+generate the news. In addition, the media industry is typically very difficult to break
+into and there are no means for budding journalists to display their ability to research
+and write a news item. Furthermore, using current techniques it is very difficult to display
+advertisements which are specifically targeted at a person in a particular
+geodemographic group. Often a scattergun approach is used, based on the theory that
+the more advertisements there are out in the public arena, the more likely it is that the
+right people will see it. Internet advertising techniques also rely on a similar principle.The number of times a banner advertisement is displayed on websites is usually
+simply in proportion to the amount of money the advertiser was prepared to pay.Little regard is had for matching the geodemographic profile of the advertisement with
+the geodemographic profile of the web content the ad is displayed next to, or the
+geodemographic profile of the visitor that is viewing that particular page. It is therefore an object of the present invention to provide a method of
+displaying information units, feedback and advertisements on a website which will
+overcome or substantially ameliorate at least some of these deficiencies of the prior
+art.THE INVENTION
+According to one aspect of the invention there is provided a method of
+receiving and displaying an information unit on a website and receiving and
+displaying information unit feedback on the website, the method including the stepsof:
+(a) receiving the information unit from an information unit entry device;
+(b) displaying the information unit on the web site;
+(c) receiving the information unit feedback from a feedback entry device; and
+(d) displaying at least part of the feedback on the website. Preferably, the step of receiving the information unit from an information unit
+entry device includes the step of reviewing the received information unit and either:
+(i) accepting the information unit; or(ii) rejecting the information unit. Preferably, the information unit is one or more of :(i) a question;(ii) an answer; or
+(iii) a news item. Preferably, the information unit is a question having a corresponding addressee
+and wherein the step of displaying the information unit on the web site includes the
+steps of :
+(a) displaying the question on the web site; and
+(b) forwarding the question to the addressee. Alternatively, the information unit is a news item having a corresponding set
+of potential media contacts and wherein the step of displaying the information unit on
+the web site includes the steps of :
+(a) displaying the news item on the web site; and
+(b) forwarding the news item to the contacts. According to another aspect of the invention there is provided a method of
+displaying geodemographically targeted advertisements on a web site, the web site in
+communication with :
+an information unit database storing a set of information units each having an
+associated information unit profile; and
+an advertisement database storing a set of advertisements each having an
+associated advertisement profile;
+and wherein the method includes the steps of :
+(a) searching the information unit database;
+(b) identifying a particular information unit and its associated profile;
+(c) searching the advertisement database;
+(d) identifying a selected advertisement having an associated profile which most
+closely matches the particular information unit's profile; and
+(e) displaying the selected advertisement on the web site. Preferably, the website includes a plurality of web pages, and wherein the step
+of displaying the selected advertisement on the web site includes the step of displaying
+the advertisement one of :
+(i) on the same web page as the particular information unit;
+(ii) near the particular information unit; or(iii) linked to the particular information unit. According to another aspect of the invention there is provided a computer
+implemented method for the posing and answering of questions including the steps of :
+(a) receiving a question and suggested addressee information from a question
+author via a question entry device;
+(b) soliciting an answer to the question from an addressee; and
+(c) displaying the question on an internet web site which is accessible by a
+plurality of visitors. Preferably, the method further includes the additional steps of :
+(a) receiving an answer to the question from the addressee; and
+(b) displaying the answer on the host computer. Preferably, the method further includes the additional steps of
+(a) receiving visitor feedback information about one or more of :
+(i) the question ; or(ii) the answer;
+from a visitor feedback entry computer; and
+(b) displaying at least part of the visitor feedback information as displayed
+feedback information on the host computer. According to another aspect of the invention there is provided a system for the
+posing and answering of questions including:
+(a) a question entry device which receives a question and suggested addressee
+information from a question author;
+(b) an answer solicitor which solicits an answer to the question from an addressee;
+and
+(c) a website which is accessible by a plurality of visitors and which displays the
+question. Preferably, the system further includes an answer receiver which receives an
+answer to the question from the addressee; and displays the answer on the host
+computer. Preferably, the system further includes:
+a visitor feedback entry computer which receives visitor feedback information
+about one or more of :
+(i) the question; or(ii) the answer
+and wherein the host computer displays at least part of the visitor feedback
+information as displayed feedback information. According to another aspect of the invention there is provided a software
+program for the posing and answering of questions including:
+(a) a question entry program which receives a question and suggested addresseeinformation from a question author;
+(b) an answer soliciting program which solicits an answer to the question from an
+addressee; and
+(c) a host program which is accessible by a plurality of visitors and which displays
+the question. According to another aspect of the invention there is provided a method of
+posing questions of public interest to accountable persons including the steps of :
+(a) displaying a question addressed to the accountable person on an Internet
+website ;
+(b) receiving feedback on the importance of the question from a plurality of
+visitors to the website ;
+(c) calculating an importance value of the question by comparing at least one
+importance factor to a predetermined set of importance criteria ; and
+(d) displaying the importance value of the question on the website. Preferably, the method further includes the steps of :
+(a) displaying at least one answer on the website, the answer corresponding to the
+question and being received from the accountable ;
+(b) receiving feedback on the adequacy of the answer from the visitors to the
+website; and
+(c) calculating an adequacy value of the answer by comparing at least one
+adequacy factor to a predetermined set of adequacy criteria. According to another aspect of the invention there is provided an electronic
+forum for the posing and answering of questions of public interest the electronic
+forum including a question database including a plurality of question records, each
+question record including :(i) a question posed by a question author;(ii) question addressee information; and(iii) importance information provided by a plurality of visitors. Preferably, the forum further includes an answer database including a plurality
+of answer records corresponding to the plurality of question records, each answer
+record including :
+(a) an answer flag indicating whether the question has been answered or not;
+(b) an answer provided by the question addressee; and
+(c) adequacy information provided by a plurality of visitors. According to another aspect of the invention there is provided a method of
+managing the display of advertisements on a website including the steps of :
+(a) receiving a plurality of advertisements;
+(b) determining an advertisement demographic profile corresponding to each of
+the advertisements;
+(c) receiving website content;
+(d) determininga content demographic profile corresponding to the website
+content;
+(e) comparing the content demographic profile with each of the advertisement
+demographic profiles ;(f) identifying a selected advertisement whose advertisement demographic profile
+most closely maiches tlic content demographic profile; and
+(g) displaying the selected advertisement on the web site in close proximity to the
+website content. Preferably. the content and advertisement demographic profiles are each stored
+in a multi-dimensional demographic matrix (MDDM) map. Preferably, the advertisement demographic profiles include MDDM maps
+corresponding to one or more of :
+(a) the advertisement itself ; and
+(b) the product or service being advertised. Preferably, the content demographic profiles include MDDM maps
+corresponding to one or more of :
+(a) a particular page of the website; and
+(b) a likely visitor to the page. According to another aspect of the invention there is provided a computer
+implemented method for the gathering and distributing of news information including
+the steps of :
+(a) receiving an inlomnation unit from an information unit author via an
+information unit entry device ; and
+(b) displaying the information unit on an internet web site. Preferably, the method further includes the additional steps of :
+(a) receiving visitor feedback information about the information unit from avisitor feedback entry computer; and
+(b) displaying at) east part of the visitor feedback information as displayed
+feedback information on the web site. According to another aspect of the invention there is provided an internet web
+site which performs the methods as described above. According to another aspect of the invention there is provided a computer
+program which performs the methods as described above. According to another aspect of the invention there is provided a magnetic data
+carrier which stores a computer program which performs the methods as described
+above.THE PREFERRED EMBODIMENT
+A preferred embodiment of the invention will now be described, by way of
+example only, with refcrence to the accompanying drawings in which:
+Figure 1 is a block diagram illustrating the method of receiving and displaying
+an informationunit on a website and receiving and displaying information unit
+feedback on the website according to a first embodiment of the invention;
+Figure 2 is a block diagram illustrating the step of reviewing the received
+information according to a first embodiment of the invention;
+Figure 3 is a block diagram illustrating the step of accepting an information unit
+according to a fust embodiment of the invention ;
+Figure 4 is Li blocli dia, ram illustrating the step of rejecting an information unit
+according to a first embodiment of the invention;
+Figure 5 is aMock diagram illustrating an information unit according to a first
+embodiment of the invention ;
+Figure 6is blocle diagram illustrating the step of displaying a question on the
+website according to a fust embodiment of the invention;
+Figure 7 is a block diagram illustrating the step of displaying a news item on the
+website according to a first embodiment of the invention;
+Figure 8 is a b) ock diagram illustrating a method of generating an information
+unit database according to a first embodiment of the invention;
+Figure 9 is a block diagram illustrating a method of generating an advertisement
+database according to a first embodiment of the invention;
+Figure 10) s a block diagram illustrating the step of displaying a selected
+advertisement on the website according to a first embodiment of the invention;
+Figure 11 is a block diagram illustrating a method of generating a member
+database according to a first embodiment of the invention;
+Figure 12 is a block diagram illustrating the steps involved in amending an
+advertisement's associated profile to more closely resemble the member profile of a
+member viewing the advertisement, according to a first embodiment of the invention;Figures l sa and 13b are two parts of a flow diagram illustrating a second
+embodiment of Hie question receiving, categorising, approving and displaying aspect
+of the present invention ;
+Figures 14a and 14b are two parts of a flow diagram illustrating a second
+embodiment of the way visitors to the website review questions and answers and
+provide feedbacl : thereon, according to the invention;
+Figure 15 is a block diagram illustrating the question database record according
+to the second embodiment ; andFigure I o. a Nuck diagram illustrating a sample works list of a category
+master, category reviewer no. 1 and category reviewer no. 2 according to the second
+embodiment of the invention. A first embodiment of the present invention will now be described with
+reference to Figures 1 to 12.Referring to Figure I. the method of receiving and displaying an information
+unit on a website and receiving and displaying information unit feedback on the
+website includes a number of steps. The first step involves receiving 4 the
+information unit 1 from an information unit entry device 5. The next step involves
+displaying 6 the information unit on the website 2. The next step involves receiving 7
+information unit feedback 3 from a feedback entry device 8, and displaying 9 at least
+part of the feedback 3 on the website 2. The information unit may be a question, an
+answer, a news itcm, an issue statement, an issue response or the like. The
+information unit entry device 5 is a computer which can access the website 2 via the
+internet. Alternatively, the device 5 may take the form of any known device which is
+capable of acccssing the internent. The information unit feedback 3 is provided by a visitor to the site 2 via the
+feedback entry deviceS The feedback is a comment or rating on the importance or
+adequacy of thc in (ormOion unit. For example, if the information unit was a question,
+the corresponding feedback 3 would include a rating as to the importance of that
+question, a rating as to the adequacy of the way the question was framed and may also
+include a comment about the question. In this way, visitors are able to indicate their
+support for a parti cular question or issue of public importance, thereby increasing the
+likelihood that thequestion or issue will gain the intention of the relevant political or
+commercial body. Each of the steps described in Figure 1 are described in greater detail below with
+reference to Figures 2 to 12.Referringto Figure 2, the step of receiving 7 the information unit 1 includes the
+step of reviewing 10 the information unit 1 and either accepting 11 the information
+unit or rejecting 12 the information unit. As shown in Figure 3, the information unit
+has a corresponding author 13 and a corresponding reviewer 14. The step of accepting11 the information umt 1 involves the additional steps of allocating 15 an incentive 16
+to the author 13 and allocating 17 an incentive 18 to the reviewer. This incentive may
+take on a numbcr of forms. In the preferred embodiment the step of allocating 15,17
+the incentive I i) * i 8 to the author 13 and reviewer 14 respectively, involves adding a
+number of incentive points to the author's or reviewer's incentive account (not
+shown). At least some of the incentive points are also put into another account, such
+as the incentive account of a particular charity. At some later stage, the incentive
+points may be converted into cash, in proportion to the revenue generated by the
+website 2. In this cmbodiment, the number of incentive points allocated to an author
+13 increascs as the number of visitors viewing the information unit 1 increases.TurningtoFigure 4, the step of rejecting 12 the information unit, involves the
+steps of allocation 17 an incentive 18 to the reviewer 14. It also involves forwarding
+19 a rejection notice 20 to the author 13. The rejection message 20 includes reasons
+as to why the informaiton unit 1 was rejected along with an invitation to resubmit an
+amended Lii, it. In this way me quahty of information units appearing on the web site can be
+regulated by the review process. In addition, authors and reviewers can gain incentive
+points by contrilutin, or reviewing infolmation units. In this embodiment, at least
+part of the advcrLising revenue generated from the website is passed on to the authors
+and reviewers. This incentive scheme encourages more people to contribute to the
+site, thereby increasing the value of advertising space on the site, thereby increasing
+the value of the incentive pomts earned by contributors. As shown in Figure 5 the information unit 1 may take the form of a question 21
+an answer 22or a news item 23. Alternatively, the information unit 1 may take the
+form of an issue statement or an issue response.Referring to Figure 6, when the information unit is a question 21 having acorresponding addressee 24, the step of displaying 6 the information unit 1 on the
+website 2 involves the steps of displaying 25 the question 21 on the website 2 and
+forwarding 26 the question 21 to the addressee 24. In this way, questions of public
+interest may bc posed to particular individuals or organisations. The step of
+forwarding 26 the question 21 to the addressee 24 could be performed as soon as the
+question is received, Preferably, however, the question is only forwarded to the
+addressee 24 once. : certain amount of feedback 3 about the question 21 has been
+received, which indicates that the question is sufficiently important to forward it to the
+addressee. The step of forwarding 26 the question 21, in that case, also involves
+forwarding 26 the feedback 3 to the addressee 24, so that they can see the public
+importance of the cucstion 21.Referring back to Figure 1, once a question has been sent to an addressee 24,
+and the addressee sends an answer, the information unit shown in Figure 1 takes the
+form of an answer 22. m that case, the method involves the steps of receiving 4 the
+answer 22,displaying 6 the answer 22 on the website 2, receiving 7 answer feedback 3
+and displaying 9 the answer feedback on the website 2. In this way questions of
+public importance, addressed to specific individuals or organisations can be given
+public support through the feedback mechanism and answers to those questions can
+also be given puhhc feedback relating to the adequacy or otherwise of the answer
+provided. In this way, the method of the present invention provides a valuable public
+forum that overcomesmany of the disadvantages of the prior art. The above described method may not only be used to pose questions of public
+importance and receive answers to those questions, it may also be equally applied to a
+method of gathering news items. As shown in Figure 7, when the information unit 1
+is a news item 23. me step of displaying 6 the information unit 1 on the website 2
+involves the steps of displaying 27 the news item 23 on the website 2 and forwarding
+28 the news item 23 to a set of potential media contacts 29. These contacts 29 include
+television broadcasters 30. printed media publishers 31, radio broadcasters 32 and the
+like. A number ofdifferent arrangements are envisaged for the forwarding of news
+items to such contacts. For example, a particular news item may be offered to a
+contact at a certain price. If the contact wishes to publish that item, they accept the
+offer and pay that price. The step of forwarding 28 the news item 23 to the contacts
+29 may either he performed as soon as the news item is received, or after feedback 3
+has been received m relation to that news item. Such feedback may take the form of
+comments or ratmes as to the importance of the news item 23, its truthfulness or
+otherwise. and the like. If such feedback is taken into account, contractual
+arrangements may be entered into with media contacts such that news items which
+receive a predetermined amount of feedback are forwarded to the contact. If the
+contact then chooses to publish the item, they are obligated to pay a certain price. In
+one embodiment, that price is in proportion to the amount of feedback which the item
+received. Alternative arrangements are also envisaged. In this way, traditional
+disseminators or news hems can receive additional information from individuals,
+effectively creamy a virtual news organisation, without the associated infrastructure
+costs. Individualswishing to contribute such news items are allocated incentive
+points, along with any additional incentives or credits which the contacts 29 may wish
+to pass on. The method of receiving and displaying information units on a website as
+described above is not only useful for posing and answering questions of public
+importance and gathering news items, it is also particularly well adapted for
+displaying geodemographicaHy targeted advertisements on the website 2. This
+method is aimed at serving up advertisements which are particularly appealing to
+persons who are likely to be reading a particular information unit. Although this
+aspect of the invenuon will be described in the context of the method of receiving and
+displaying information units on a website, as described above, the method may also be
+applied to any w ebsite w hich contains information units and which displays
+advertisements. Before the method of displaying geodemographically targeted advertisements
+can be perform@@@ an informaiton unit database 33 and an advertisement database 46
+must be set up. Hure shows a method of generating an information unit database
+33. That method involves the steps of receiving 34 a set 35 of information units 36,
+37 and 38. The hext step involves generating 39 a set 40 of information unit profiles
+41, 42 and 43. These profiles are geodemographic profiles which estimate the
+geodemographic profile of visitors who are likely to wish to view the information
+units. The profiles take into account a number of factors including the visitor's
+nationality, their age, their occupation, their education and the like. The next step
+involves assciaung 44 each of the units 36, 37,38 with one of the profiles 41,42, 43.In this way, a particular informaiton unit 36 will have a particular profile 41 associated
+with it, that profitc reflecting the likely geodemographic profile of a visitor who might
+wish to view the informaiton unit 36. The next step involves storing 45 the
+information units ind their associated profiles in the information unit database 33. Figure 9 shows a similar method for generating an advertisement database 46.That method includes the steps of freceiving 47 a set 48 of advertisements 49,
+These advertisementswin normaHy take the form of banner advertisements.However, any type of internet compatible advertisement may be used. The next step
+involves generating 52 a set 53 of advertisement profiles 54,55,56. Once again, these
+are geodemographie profiles which estimate the profiles of visitors who are likely to
+want view the ad\ ertisement, or visitors who the advertisers would like to view the
+advertisement. hi one embodiment, the advertisment profiles include a range of
+demographic proieswhich the advertisments are aimed at, ratherthan just a singledemographic prottfe. The next step involves associating 57 each of the
+advertisements. 42. 50.5 i with one of the profiles 54,55,56. The next step involves
+storing 58 the advertisements and their associated profiles in the advertisement
+database 46. Once the m formation unit database 33 and the advertisement database 46 have
+been generated. the method of displaying geodemographically targeted advertisements
+on the website can be performed. That method is illustrated in Figure 10. In the
+context of the above described method of displaying information units, the step of
+displaying 6 a pariicular infonnation unit 38 on the website 2 involves a number of
+steps. The firs'steps invoive searching 59 the information unit database 33 and
+identifying 60 that mformation unit's associated profile 43. The next step involves
+searching ()tile advertisement database 4G and identifying 62 a selected
+advertisement O which has an associated profile 56 which most closely matches the
+information unit's profitc 43. The next step involves retrieving 63 that advertisement
+51 from the ad. ertisement database 46 and displaying 64 it on the website 2. In the
+preferred embedimem. the advertisement 51 and information unit 33 are displayed
+next to each other on the same page of the website 2. They may also be linked to one
+another or c) osc ! y reiated in a similar way. In this way the present invention provides a method for displayingadvertisements @@@ing a particular geodemograhic profile near information units
+having a similar prelile, on a website. In this way, visitors who have a particulargeodemographie profne which inclines them to want to view a particular information
+unit will be served with an advertisement near that information unit which is also
+likely to appeat to them. In this way, advertisers can more readily target theiradvertisement. @@ visitors can be served advertisements which are more appealing to
+them. An advalvcli form of this profile matching method is illustrated with reference
+to Figures 11 and 12. In the above description, the geodemographic profiles of a
+particular information unit or advertisement may have been originally developed by
+someone estimating the profile of the type of visitor likely to be interested in theparticular information unit or advertisement. The following method provides a way ofadjustingtheestimatedprofileof a particular advertisement or information unit to
+more closely match a known profile of a visitor viewing that advertisement or
+information unil. As shown in Figure 1 1 this method includes a number of steps. The first step
+involves receiving 65 member identification information 66 from a member via the
+feedback entry device 8 The next step involves receiving 67 a member profile 68
+from the deviceiicxt step involves associating 69 the member identification
+information 6 6 with the profile 68 and storing 70 them in a member database 71. The member identification information 66 includes a user name and password.The profile 68 includes geodemographic informaiton such as that described above
+with reference to the informaiton unit and advertisement. Because the profile 68 has
+been provided !)me member him/herself, it is a more accurate profile then the
+estimated profiies of the informaiton unit and advertisement. Using this more accurate
+profile, the advertisement and information unit profiles can be amended to more
+accurately refleet the geodemographic profile of the visitors who actually view them. As show @ @ Figure 12, this involves a number of steps. The first step involves
+displaying 72 a selected advertisement 73 having an associated profile 74 on the
+website 2. The next step involves detecting 75 a particular member viewing the
+advertisement. particular member having particular member identification
+information 76. This detccting step may be performed by any known means. In the
+preferred embodiment, the member, when first visiting the website 2 enters his/her
+user name and password so that their member identification information 76 is known.The step of detecting 75 the member viewing the advertisement 73 is then performed
+when the member clicks on the advertisement. The next step involves scarching 77 the member database 71 and identifying 78
+the particular member's associated profile 79. The next step involves searching 80 the
+advertisement database 46 and identifying 81 the advertisement's associated profile
+74. The next step invoives comparing 82 the particular member's profile 79 with theadvertisement's profile 74. The next step involves amending 83 the advertisement's
+profile 74 to more Joscty resemble the member's profile 79. The final step involves
+storing 84 the amended profile 74 in the advertisement database 46. In this way, by knowing the profile 79 of a particular member, and by detecting
+75 that that member views a particular advertisement 73, it is possible to amend the
+advertisement's profile 74 to more closely reflect the member's profile 79. As more
+and more the advertisement, its profile can be increasingly honed to
+accurately refleet the geodemographic profile of those members. This is also useful
+for targeting advertisements at non-member visitors, whose profiles are unknown,
+since an advertisement can be displayed near an information unit whose profile is
+known. Althet@n the above description relates to how an advertisements profile may
+be amended to mc doseiv reflect a members profile, the same method can be
+applied to impreve the accuracy of an information unit's profile, by amending it to
+more closely rcneer the proxies of members who view it. Alternatively, if a member's
+profile is unknown, incomplete, or inaccurate, the same method can be used to amend
+the member's profile to more accurately reftect the profiles of the advertisements and
+information units which the member views. The abovemethod therefore provides a way of displaying geodemographically
+targeted advertiseemnts on a website. A second embodiment of the present invention will now be described with
+reference to Figures 13a to 16. This sccond embodiment focuses on a particular
+implementation of the method of posing questions, receiving answers to those
+questions and receiving fecdback on those questions and answers. This secand embodiment is preferably implemented by means of a computer
+system that ope. @@es in the following way :
+Step 1: As shown in figure 13 (a), the first step involves the drafting of a
+question by an either. The author may be any person, including but not limited to a
+ntural person, representative or employee of any corporation or organisation or
+government. question drafted by the author will be written with a particular
+addressee in mm@ The addressee may be any person, including but not limited to a
+natural person. a representative or employee of any corporation, organisation, or
+government boay,
+Step 2: as snown in Figure 13(a), the question sent by the author and is
+entered into the'.stem. ! n the preferred embodiment, the system includes an Internet
+website winch. cessible by the author from the author's computer. However, the
+preferred embe@ment would also include alternative means for the author to enter to
+question into tr. e system, such as by e-mail, by facsimile, by ordinary post etc. These
+latter methods. 1 forwardmg the question to the system would be achieved by
+appropriate data entry means which could include automatic text retrieval andinterpretation methods, such as optical character recognition, parsing scripts and/or
+human interve. nion. As shown in Figure 15, the system of the preferred embodiment includes a
+question atabase recerd. The question database record of the preferred embodiment
+includes !ietu.!'rauthorinformation,question information, visitor feedbackinformation, viaitor statistie information and reviewer feedback information. In tupis first step the author enters author information into the question database
+record, ineluding the author name, author address, author e-mail address and selects
+or de-seleets as @@@thor name publication flag to indicate whether the author wisheshis/hername te @@published with the question. or whether the author wishes to remainanonymous. Step 3: In the preferred embodiment the author also enters the question, the
+suggested addressee and nominates an appropriate category into which the question
+falls. Prefera the list of categories at; east include subject categories and
+geographic eate, @@@ but may ahernatively be divided in a number of different ways.Preferably, the subject categories cover categories at least relating to international
+issues, federalllernmem issues, state government issues, environmental issues and
+issues relating to utilities such as power, water and telecommunications. In the
+preferred emiz@@@nem, the list of categories is expandable, allowing additionalcategories to b@@@@@@ as the need arises. Step 4: Once the author has written the question and it has been entered into
+the system tog@@@ with his/her author information, and once the author has selected a
+category for the question. the author informaiton is stored in an indexed, secure
+database, available only to a site manager, and the question is electronicallytransferrecl to ! bc in'st available category reviewer, for the particular category. The
+question then appears on the work list of the category reviewer which is displayed by
+the category r@ e. s computer, when the category reviewer logs on to the system.In addition. when the question in transferred to the work list of the category reviewer a
+brief e-mail mesasge is esent to the e-mail address of the category reviewer, indicating
+that the category reviewer has received a question. Step 5;t'penreceipt of the question, the category reviewer may do one or
+more oftheiui...
+a) edit an @@@@ copy of the question;
+b) attach qsJon comments or question suggestions to the question;
+c) appove or reject the question, whereupon;
+d) the systam selects the appropriate category master ; and
+e) transmm @e original question and an editing copy of the question and anyattaches @@ uestion comments or question suggestions to the system worklist of
+the category master. Examples of typical messages shown in the worklist of
+categor reviewers and the system worklist of category masters of the preferred @@bodiment are shown in Figure 16.Step @@ pen receipt, the category master may do one or more of the
+following:
+(a) further eait the editing copy of the question;
+(b) attach @@ ther question comments or question suggestions to the question;
+(c) approve the question as an edited question or an unedited question; or
+(d) reject the question. Step 7N If the category master approves the question as an edited question
+the system:
+(a) sends a eifieation message to the author by e-mail, or by the same means in
+which the @aestion was originally received ; and
+(b) releascs the edited question for viewing on the Internet website together with
+the auther's name (if the author activated the author name publication flag);
+(c) sends the edited question to the addressee together with a unique answerpasswo@@ The edited question may be sent by any conventional meansinciudi:.Lnotlimitedtooneormore of email,facsimile and ordinary post.(d) if the aumor is a member, the system also :(i)..:..!designatedincennveibr an approved edited question to the
+member's incentinve account; and
+(ii) the designated incentive for an approved edited question to the @@@ber's charity incentive account. Step 7i: !'the category master approves the question as an unedited question,
+the system wouid perform the same steps as 7A, except that an unedited question
+would be sent to the addressee and the incentive added to the member's incentive
+account and @@@@ meentive account would be an unedited question incentive, rather
+than an edited westion incentive. In the preferred embodiment, the value of an
+unedited question incentive would nonnally be greater than that of an edited question
+incentive, sinc... _, mthor should be rewarded for drafting his/her question in anappropriatctorm@@ without need for input from the category reviewers or the category
+master. Step 7C: I the category master rejected the question, the system:
+(a) sends arejection notification message to the author by e-mail, or by the same
+means, aich the question was original received. Preferably, the rejectionnouftc..'messageincludesaninvitation for an author to amend and resubmK the question ;
+(b) marks the cdited question and unedited question as an unavailable question,being inaccessible on the Internet wcbsite by either members or visitors ; and
+(c) if the a. @@ a member, the system adds a rejected question incentive to the membe'..ce.uivcaccount. Also shewn in figures 13(a) and 13 (b) is the section of the system of the
+present invention which allows for the receiving, processing, accepting and posting of
+an answer on the Internet website. Whilst this process may be implemented in a wide
+variety of \'..--.efer'e.!embodimenL is preferably implemented in accordance
+with the folio\,, : @@@ eanled deseription :
+Step 1 : As shown in Figure 13 (a), the first step involves the drafting of an
+answer by na addressee. The addressee may be any person, including but not limited
+to a naturai per...arepresentativeoremployee of any corporation or organisation or governmentStcj)@@@@ shown in gfigure 13(a), the answer is sent by the addressee and is
+entered into the system together with the supplied answer password. In the preferredembodiment.'':.systemmeiudes an Internet website which is accessible by the
+addressee from the addressee's computer. However, the preferred embodiment would
+also include ahernative means for the addressee to enter the answer into the system,
+such as by cmail, by facsimile, by ordinary post etc. These latter methods of entering
+the answer inti me system would be achieved by appropriate data entry means which
+could incmde.'n'ma'ictextretrievalandinterpretation methods, such as optical
+character recognition, parsing scripts and/or human intervention. Step 3 : Once the answer and supplied answer password have been entered
+into the system. the answer password supplied is compared with the correct answerpassword for th.'arttcuiar question.Step 4@@@ the supplied answer password does not match the correct answer
+password, then'a.i.-;werissonbacktotheaddressee with a new correct answer
+password and password rejection message. The password rejection message
+indicates to the addressee that if the addressee docs not supply the new correct answer
+password wnh ms/hcr answer, then the system will not process the answer for
+publication on: Jnternet website. Step 4b the supplied answer password matches the correct answer
+password, the aaswer is transmitted by the system to the category reviewer(preferably-me'.egj.'yreviewerreviewingtheanswer is the same category reviewer
+who reviewed @@@ initial question) in the form of an answer database record. In the
+preferred embe ment. the answer database record includes such information as theanswer, addre@@@ ormation and question cross-referencing information such as a
+question number. Preferabty, the answer database record further includes fields for
+reviewer fecdback informaiton, visitor feedback information and visitor statisticinformation. Step Jtice : Once the category reviewer has received the answer in its answer
+database record, he or she may enter answer comments and/or answer suggestions in
+the reviewer feedback informaiton field of the answer database record. Step @ : Once the category reviewer has reviewed the answer, he or she
+activates the an@@er processing flag in the answer database to indicate that the answer
+has been processed. The system, then sends the processed answer database record tothe appropriate category master.Ste receipt of the answer in its answer database record, the
+category master thep reviews the answer, together with any answer comments or
+answer sugjes:'-'-ovidedbythecategoryreviewer. The category master will then
+either accept or reject the answer provided by the addressee. In the preferredembodiment, the answer provided will almost always be accepted, since the addressee
+should be allow toanswerthe question the way he/she/it chooses. However,
+reviewing the ver ensures not only that the correct addressee has provided theanswer byt @@@@ @@@ @@@ answer does not contain inappropriate (offensive, libellous
+etc.) materiez@@@@@ addition, the category reviewer or category master may wish tosuggest that further questions be posed to clarify issues not addressed by the answer. Step S.V. If the answer is rejected, the system will send the answer back to theaddressee tog@h with an answer rejection message. This answer rejection message
+will preferably @@@@ omunaents on the reasons for rejection by the category master. Ste 8B : If the answer is accepted, the system:
+(a) marks t ! : j answer as an available answer and releases the answer for viewing
+on the huernet website :
+(b) sends an answer acceptance message to both the addressee and the relevant category reviewer.Turning now to Figures t4 (a) and 14 (b), there is shown a flow diagram,illustrating the @netionality of the system which facilitates the access of, and input
+from, visitors to the Internet website, in accordance with the following steps:
+Stcp i: in the preferred embodiment, a visitor access the Internet website
+using the visitor's computer and views the opening page. Preferably the opening page
+at least includes site raie informaiton, headlines for the top ten questions and incentiveinformation. The visiter may view question and informaiton on the Internet website byenterin*, through the members entry or the visitors entry. To enter through the
+members entry, me visitor must be a member and opportunity is given to become a
+member by the visitor filling out a membership entry form.When the visitor becomes a member,he/she is given a member password
+which he/she eners on the opening page each time he/she visits the Internet website. If the visaor enters the system through the members entry, then incentive
+points are added to that members incentibve account when the member:
+(a) makes commems aboat a question; and/or
+(b) enters a@@ing for a question. If the visaor enters via the visitor entry, then any incentive points earned are
+added to the incentive account. Step 2: Once the visitor has entered the system, either through the visitor's
+entry or the member's entry, the system displays the categories in which questions
+have been made availablc, Preferably, the system also includes means for the visitor
+to enter a question number, if the visitor already knows the question number of the
+question which they are interested in. Step 3A: If the visitor enters the question number, then the system displays
+the question tog@@rer with a vistior question feedback entry screen. In the preferredembodimenm the visit@r question feedback entry screen allows the visitor to provide
+visitor feedback information in the form of either a visitor comment and/or a visitor
+rating. Such visitor comments will preferably be suggestions for improvement to the
+question or correetions/additions to the question.thethe p@@@ tee embe liment, the visitor rating would preferably be a rating on
+the imprtance the question, This may ake the form of a simple two-button system
+in which the visitor may indicate "Yes : they do want an answer to the question"or
+"No: they don't eare about the question",
+tn the preterred embodiment, if an avswer has already been provided to a
+question by the demon addressee, then that answer would be displayed in closeproximity to @@ @ question feedback entry screen on or next to a visitor answer
+feedbacl@ entry sereen. Preferably, the visitor answer feedback entry screen would
+include means f@@ a visitor to enter visitor answer comments and/or visitor answer
+ratings. Suci : ishr answer comments would preferably provide a visitor'sassemssment @@@@ ansver p. ovided by the addressee. Similarly, the visitor answer
+rating would pro\ ! dc a rating of the answer provided by the addressee. This means forentering the visitor answer rating could also be a simple two-button system such as
+"Yes: I am satisi a with the answer" or "No: I am not satisfied with the answer". Step 3B: a the visitor did not select a particluar question number, but selected
+a particular category, the system would display the appropriate question and answer
+display serecn for the particular category selected by the visitor. In the preferred
+embodimem, the question and answer display screen would preferably include a
+plurality or @@@ @@@. togeemr with any associated answers that have been provided
+by the addressees. In addition, the question and answer display screen of the preferred
+embodiment will also include advertisements which are appropriate to the category. Step 4. When the visitor selects a particular question the system displays the
+question, together with a visitor question feedback entry screen and (if provided) thecorrespond!.i....iu::er'.'.dhitsvisitoranswerfeedback entry screen. The
+visitor then @@@@ visitor feedback information as discussed in Step 3A above. Step 5: When the visitor has finished entering his/her visitor feedback
+information. for a particular question and/or answer, the system provides links which
+allow the visitor to view other quexstions in the same or other categories or exit the
+system. Step or m ing preierred embodiment, if a visitor has provided a visitor
+question common ; n respect of particu ! ar question, the visitor question comment is
+sent to the caleam, reviewer or category master in charge of the question. The
+category revew@@ or the category master may choose to amend the question in light
+of the vist@ @@@ conment provided by the visitor and/or reject the original
+question and (i ait a new question in light of the visitor question comment provided by
+the visitor. ! n sch a snuation, the new question replaces the original question and is
+made an availat's quetion which is accessible to all subsequent visitors on the
+Internet websne.Step 7 : ; !' visitor feedback information in the form of either a visitor
+question comme@ (!;. visitor question rating, visitor answer comment or visitor answer
+rating has been provided by a visitor, then incentive points will be added to the
+members ineent. account and the member's nominated charity incentive account (if
+the visitor is am@@@@ or to the non-member incentive account (if the visitor is not a
+member). Step S: If the visitor has provided a visitor question rating or a visitor
+answer rating thesys'cmpreferabtyupdatesthedisplayed visitor feedback information
+about the eness or answer. In the prerferred embodiment the displayed visitor
+feedback :m'!'::;..mehJesoneormoreofatotai visitor number record,
+cumulative vistior rating record, total visitors entering a rating record and an average
+visitor ratinereevro. In the preferred embodiment of the system of the present invention, incentive
+means are @@@@ed to give question anthors, visitors, category reviewers and
+category ma@@ @@ative point. Whilst numerous means for redeeming such
+incentive pomts we available, the inventors envisage at least the following means of
+redeeming incendve points:
+(a) The first means for redeeming incentive points will be in the form of shares
+and/or an enut to shwes in the first public share offer of the system. In thisredemption, me ownr of thc incentive points would receive a percentage of shares in
+proportion to the amount of incentive points they have accumulated in relation to the
+total incentive?-i.:'awardedbetweenthedate of inception of the system and the date
+of the first pabli @ffer. In the preferred embodiment, the individual would receive
+90% of any such shares and their nominated charity would receive 10% of any such
+shares
+(b) In addinon.incentive points which have been earned by visitors who are not
+members w@@@ arrably be accumulated in a non-member incentive account and the
+shares owe@@@ @@n-member ineentive account would preferably be applied to
+such charities as voted upon by members and visitors during a specified voting period.(c) Further means of redeeming incentive points, in the preferred embodiment,
+would be in the form of payments based on a proportion of the advertising revenue
+generated. (i ol'ici-ed oii the Internet website in closeproximity to @@@ of oher information units in categories which are most closely
+related to the proecuet/serviee being advertised.(d) In the preferred embodiment, 15% of the advertising revenue would preferably
+be distribute.@ @@ members. based on the number of incentive points they have in
+relation to @ ntivepoints. In addition, 3% of the advertising revenue would also be paid@@@ ated elharities.(e) Similarly. i.reentive points earned by visitors who are not members, would be
+accumulated in a non-member incentive account, and a proportion of the advertising
+revenue wu!;J'..pphcdtosuchcharities as may be decided by the voting of members an arl@@ a set voting period.(f) Incentive points earned by category reviewers and category masters would
+preferably !determinedbythe number of visitors reading and providing a visitor
+comment or visiow rating on the questions which the category reviewer or category
+master has processed/approved.(g) In thepreferred embodiment, the system includes advertising management
+means which controls the display and/or billing of advertiseemnts in the advertising
+space located in close proximity to questions of relevance to the goods/services being
+advertised. In the preterred embodiment, the cost of the advertising space to the advertiser
+will be in proportion to the number of visiors which visit and view the question which
+is in close proximity to the advertising speacc being hired. Preferably. the advertising management means also includes means for relating
+the advertis..':...0theparticutarcategories and/or questions which are most
+suitable to-'.servicesbeingadvertised.Suchsuitability is preferably based on
+the perceives@ de@@@@mphic characteristics of at least the visitors most likely to be
+interested in a particular question.Morepre:e!\ibiy,theadvertisingmanagementmeanstakes into accountdemograpm efac: being one or more of the perceived or actual demographics of
+the:
+a) advertisement
+b) produet et service being advertised;
+c) question or issues in colse proximity to the advertising space in question; and
+d) visitor interested in the particular question or issues in close proximity to theadvertising spaces in question ;
+and displays o, theadvertisementaccordingly.In on e@@ ediment, the advertising management means would employ a
+plurality of nulil hmensional demographic matrix (MDDM) maps. Preferably, the
+advertising management means would at least include a MDDM map for each of the:
+a) advertisementb) produet or merviee being advertised an
+c) pageLj.d.equestionorissues is displayed) ; and
+d) visite
+Even mi,@@ preferably, the acivertising management means takes the
+demographic factors into account in a wcighted manner. That is, one type ofdemographilact@@ may have more significance in relation to the product or service
+being adver@@@ @@@@al therefore be given a high demographic werighting and
+vice-vers. !.;j..'.phc::tCtcrsof')cssc)'significance. In one embodiment, the advertising management means would build up ademographic protile of a particular member by recording his/her activities on the site
+(illustrated the wer portions of flow charts 14(a) and 14 (b)). The advertisingmanagemen @@@ would also build up a similar profile for non-member visitors toparticular pages @@@@erchy ouilding up a demographic profile of that particular page. By analysin the @@@mographic profile of the vistor, the page, the product/service and
+the advertiscment me advertising management means is able to serve up to the visitor
+an advertisement mch they are most likely to be interested in. In one simp ! c embodiment of the MDDM maps, the dimensions could include
+such factors such as
+a) age:
+b) coui'yo.':.gm:
+c) interests. The visitor s MDMM map would include weighting factors indicating the
+degree or relevance of the particular category. For example, if visitor A is a 35 year
+old male Aastramq who is interested in golf, he would have an MDMM map which
+included high wt@@@nings in the sections of those dimensions which corresponded to
+his persoiilti
+The product's MDMM map would include similar wieghting factors. If product
+A was aset of go@@ elube, then the golf club section of the interests dimension would
+have a high weigning. When the visitor's MDMM map is compared with (or perhapsmultipHL'd;'.i.;ro'iLi.t'.\!M\!map,theresuhwouid be a high compatibility
+rating and li, and nisement management means would serve up an advertisement for
+product A to visitor A.Simit cona@@hts apply to the MDMM maps of the advertisement itself, and the
+page OsPrefer@@@ taking @@@ account the MDMM maps of members who visit aparticular paue (@@@ about whom the system has more detailed information), the
+advertisement nmpagement means would make similar assumptions about non-member visitors @@ visit particular pages. and serve up advertisements normally
+appropriate to members who visit that page, on the assumption that the visitors who
+are intereste, in the particular topic have a similar demographic profile to the
+members who are interested in that topic. Preferably, the advertising management means will have the capacity to select
+the most appropr ate advertisement to be displayed for the particular:
+a) vi s
+b) qxcst os.-, issue at hand (or page). In the preferred embodiment, the Internet website which allows visitors to
+access thes.sto\\'i)!preferabtyhaveanopeningpagewhich includes at least site
+rule infor:)).(.!i..'cr.tive)'!:)urmatio)iandl ! c headlines for the top ten questions. In the @@erred embodiment, the site rule informaiton includes such
+information as :
+(a) System polieics which at least include:(i) that the system will not publish author information if the author
+@ es to remain anonymoris; and (h;.h.K'i'ncL.\eb:;Ite\\itlnotincludeadvertisementsorlinksthatare
+foand to have or aHow hnks to pornographic websites.(b) Theii. tiquette of good questioning;(i)The/stc..i\\i)lnotappro'\'esianderousquestionssuchas"Whendidyou stop
+b@@ y wife?",
+(ii) All @@sti saould be clcar and concise;
+(iii) The tetter should be less than one A4 page,
+(iv) Profanlty is to be avoided in both questions and answers. In alternative embodiments, the present invention is intended to encompass
+similar methods, mechanisms and codes which perform similar tasks in relation to
+statements, rather than questions. In such an embodiment, the present invention
+would serve as an electronic forum in which authors could raise issues in the form of
+issue statements. Such issues could have a particular person in mind who can or
+should address that issue (an issue addressor). Alternatively, the author may not have
+a particular issue addressor in mind but is seeking support for the issue from the
+visitors to the internet web site, which they provide in the form of visitor feedback
+information. Alternative embodiments are also envisaged. Although the invention has been described with reference to specific examples,
+it will be appreciated by those skilled in the art that the invention may be embodied in
+many other forms.</txt>
+</txts>
+</record>
